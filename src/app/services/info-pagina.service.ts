@@ -13,9 +13,9 @@ export class InfoPaginaService {
     nombre_corto: '',
     pagina_autor: '',
     facebook: '',
-    twitter: '',
+    linkedIn: '',
     instagram: '',
-    pinterest: '',
+    youtube: '',
     equipo_trabajo: []
   };
   cargada = false;

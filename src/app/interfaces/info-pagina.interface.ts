@@ -6,9 +6,9 @@ export interface InfoPagina{
     nombre_corto?: string;
     pagina_autor?: string;
     facebook?: string;
-    twitter?: string;
+    linkedIn?: string;
     instagram?: string;
-    pinterest?: string;
+    youtube?: string;
     equipo_trabajo?: any[];
 
 }
