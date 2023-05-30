@@ -8,7 +8,7 @@ svg rect{
 }
 
 
-
+/* Para todas las animaciones*/
 .animated {
     -webkit-animation-duration: 3s;
     animation-duration: 3s;    
@@ -16,22 +16,8 @@ svg rect{
     animation-fill-mode: both;
 }
 
-/* EN EL CURSO LO AÑADE, PERO NO HACE FALTA
-@media (prefers-reduced-motion) {
-    .animated {
-        -webkit-animation-duration: 1ms !important;
-        animation-duration: 1ms !important;
-        -webkit-transition-duration: 1ms !important;
-        transition-duration: 1ms !important;
-        -webkit-animation-iteration-count: 1 !important;
-        animation-iteration-count: 1 !important;
-    }
 
-    .animate__animated[class*='Out'] {
-        opacity: 0;
-    }
-} */
-
+  /******************************************animaciones****************************************************/
 
 @-webkit-keyframes fadeIn {
     from {
@@ -52,6 +38,136 @@ svg rect{
     }
 }
 .fadeIn {
--webkit-animation-name: fadeIn;
-animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
 }
+
+/**********************************************************************************************/
+
+@keyframes bounceIn {
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  
+    0% {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+  
+    20% {
+      transform: scale3d(1.1, 1.1, 1.1);
+    }
+  
+    40% {
+      transform: scale3d(0.9, 0.9, 0.9);
+    }
+  
+    60% {
+      opacity: 1;
+      transform: scale3d(1.03, 1.03, 1.03);
+    }
+  
+    80% {
+      transform: scale3d(0.97, 0.97, 0.97);
+    }
+  
+    to {
+      opacity: 1;
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  .bounceIn {
+    animation-duration: calc(var(--animate-duration) * 0.75);
+    animation-name: bounceIn;
+  }
+
+
+  /**********************************************************************************************/
+  @keyframes flip {
+    from {
+      transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
+      animation-timing-function: ease-out;
+    }
+  
+    40% {
+      transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+        rotate3d(0, 1, 0, -190deg);
+      animation-timing-function: ease-out;
+    }
+  
+    50% {
+      transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+        rotate3d(0, 1, 0, -170deg);
+      animation-timing-function: ease-in;
+    }
+  
+    80% {
+      transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)
+        rotate3d(0, 1, 0, 0deg);
+      animation-timing-function: ease-in;
+    }
+  
+    to {
+      transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
+      animation-timing-function: ease-in;
+    }
+  }
+  
+  .flip {
+    backface-visibility: visible;
+    animation-name: flip;
+  }
+
+
+  /**********************************************************************************************/
+
+
+  @keyframes rollIn {
+    from {
+      opacity: 0;
+      transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .rollIn {
+    animation-name: rollIn;
+  }
+
+
+  /**********************************************************************************************/
+
+  @keyframes lightSpeedInLeft {
+    from {
+      transform: translate3d(-100%, 0, 0) skewX(30deg);
+      opacity: 0;
+    }
+  
+    60% {
+      transform: skewX(-20deg);
+      opacity: 1;
+    }
+  
+    80% {
+      transform: skewX(5deg);
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .lightSpeedInLeft {
+    animation-name: lightSpeedInLeft;
+    animation-timing-function: ease-out;
+  }

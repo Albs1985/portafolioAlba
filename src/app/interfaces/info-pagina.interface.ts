@@ -9,7 +9,12 @@ export interface InfoPagina{
     linkedIn?: string;
     instagram?: string;
     youtube?: string;
-    equipo_trabajo?: any[];
+    twitter?: string;
+    // equipo_trabajo?: any[];
+    frase?: string;
+    nombre?: string;
+    subtitulo?: string;    
+    url?: string;
 
 }
 

@@ -16,18 +16,18 @@ export class InfoPaginaService {
     linkedIn: '',
     instagram: '',
     youtube: '',
-    equipo_trabajo: []
+    // equipo_trabajo: []
   };
   cargada = false;
 
-  equipo : any[] | undefined;
+  // equipo : any | undefined;
 
   constructor(private http: HttpClient) {
 
     console.log("Servicio de Info Pagina cargada");
 
     this.cargarInfo();
-    this.cargarEquipo();
+    // this.cargarEquipo();
 
   }
 
@@ -49,18 +49,19 @@ export class InfoPaginaService {
   }
 
   //Leer el equipo desde BBDD de firebase:
-  private cargarEquipo(){
-
-    this.http.get('https://angular-html-b9db3-default-rtdb.europe-west1.firebasedatabase.app/equipo.json')
-      .subscribe ((resp:any)  => {
+  // private cargarEquipo(){
+    
+  //   // this.http.get('https://angular-html-b9db3-default-rtdb.europe-west1.firebasedatabase.app/equipo.json')
+  //   this.http.get('assets/data/angular-export.json')
+  //     .subscribe ((resp:any)  => {
         
-        this.equipo = resp;
-        // console.log(this.equipo);
+  //       this.equipo = resp;
+  //       // console.log(this.equipo);
         
 
-      });
+  //     });
 
-  }
+  // }
 
 
 

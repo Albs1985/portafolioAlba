@@ -19,11 +19,18 @@ export class HeaderComponent {
     if (termino.length < 2){
       return;
     }
-
+    
     this.router.navigate(['/search', termino]);
 
-    // console.log(termino);
-
   }
+
+  // ocultaPanel() {
+  //   console.log('OCULTA PANEL');
+  //   var enlaces = document.getElementsByClassName('rk-menu__link');
+  //   console.log(enlaces);
+  //   for (var i=0; i < enlaces.length; i++){
+  //     enlaces[i].classList.toggle('ocultaDesplegable');
+  //   }
+  // }
 
 }
