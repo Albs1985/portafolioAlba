@@ -88,5 +88,11 @@
     "cod": "prod-15",
     "titulo": "Camisetas usadas",
     "url": "project-15"
+  },
+  {
+    "categoria": "libros",
+    "cod": "prod-16",
+    "titulo": "Libros restaurados",
+    "url": "project-16"
   }
 ]

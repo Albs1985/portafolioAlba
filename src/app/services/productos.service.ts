@@ -1,23 +1,28 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Producto } from '../interfaces/producto.interface';
+import { ProductoDescripcion } from '../interfaces/producto-descripcion.interface';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductosService {
 
-  // productos : any = [];
-  // productos_idx : Producto = {
-  //     categoria: '',
-  //     cod: '',
-  //     titulo: '',
-  //     url : ''
-  //   }    
-
   productos : Producto[] = [];
+  productosLista : ProductoDescripcion[] = [];
   productosFiltrado : Producto[] = [];
-
+  productoDesc : ProductoDescripcion = {     
+    categoria: '',
+    cod : '',
+    titulo: '',
+    url: '',
+    desc1: '',
+    desc2: '',
+    producto: '',
+    resumen: '',
+    subtitulo1: '',
+    subtitulo2: ''
+  }
   cargando = true;
 
   constructor(private http: HttpClient) {
@@ -26,29 +31,118 @@ export class ProductosService {
 
   }
 
-  private cargarProductos(){
+  cargarProductos(){
 
     //Añadimos el PROMISE para esperar a que se carguen los productos
     return new Promise( (resolve, reject) => {
-      this.http.get('https://angular-html-b9db3-default-rtdb.europe-west1.firebasedatabase.app/productos_idx.json')
-      .subscribe( (res: any ) => {
-        
-        // console.log(res);
-        
-        this.productos  = res; 
-        this.cargando = false;
+      // this.http.get('https://angular-html-b9db3-default-rtdb.europe-west1.firebasedatabase.app/productos_idx.json')
+      this.http.get('assets/data/angular-productos-export.json')
+        .subscribe( (response: any ) => {
 
-        resolve(true);
-        
-      });
+          var array = [];
+          for(let key in response){
+            // console.log(key);
+            // console.log(response[key]);
+            this.productoDesc = {     
+              categoria: '',
+              cod : '',
+              titulo: '',
+              url: '',
+              desc1: '',
+              desc2: '',
+              producto: '',
+              resumen: '',
+              subtitulo1: '',
+              subtitulo2: ''
+            };
+            this.productoDesc.categoria = response[key].categoria;
+            this.productoDesc.cod = response[key].cod;
+            this.productoDesc.titulo = response[key].titulo;
+            this.productoDesc.url = response[key].url;
+            this.productoDesc.desc1 = response[key].desc1;
+            this.productoDesc.desc2 = response[key].desc2;
+            this.productoDesc.producto = response[key].producto;
+            this.productoDesc.resumen = response[key].resumen;
+            this.productoDesc.subtitulo1 = response[key].subtitulo1;
+            this.productoDesc.subtitulo2 = response[key].subtitulo2;
+
+            // console.log(this.productoDesc);
+            array.push(this.productoDesc);
+            // console.log(array);
+            
+          } 
+          // console.log(array); // your required array
+
+
+          this.productosLista = array;
+          // console.log(this.productosLista);
+
+          this.cargando = false;
+
+          resolve(true);
+          
+        });
+      
     });
     
   }
 
   getProducto(id: String){
-    
-    return this.http.get(`https://angular-html-b9db3-default-rtdb.europe-west1.firebasedatabase.app/productos/${ id }.json`); 
-    
+    return new Promise( (resolve, reject) => {
+
+      this.http.get('assets/data/angular-productos-export.json')
+      .subscribe( (response: any ) => {
+
+        var array = [];
+        for(let key in response){
+          this.productoDesc = {     
+            categoria: '',
+            cod : '',
+            titulo: '',
+            url: '',
+            desc1: '',
+            desc2: '',
+            producto: '',
+            resumen: '',
+            subtitulo1: '',
+            subtitulo2: ''
+          };
+          this.productoDesc.categoria = response[key].categoria;
+          this.productoDesc.cod = response[key].cod;
+          this.productoDesc.titulo = response[key].titulo;
+          this.productoDesc.url = response[key].url;
+          this.productoDesc.desc1 = response[key].desc1;
+          this.productoDesc.desc2 = response[key].desc2;
+          this.productoDesc.producto = response[key].producto;
+          this.productoDesc.resumen = response[key].resumen;
+          this.productoDesc.subtitulo1 = response[key].subtitulo1;
+          this.productoDesc.subtitulo2 = response[key].subtitulo2;
+
+          array.push(this.productoDesc);
+        } 
+
+
+        this.productosLista = array;
+        // console.log('ALBERT');
+        for (var i=0; i<this.productosLista.length; i++){
+          // console.log('id');
+          // console.log(id);
+          // console.log('this.productosLista[i].cod');
+          // console.log(this.productosLista[i].cod);
+          if (id === this.productosLista[i].cod){        
+            this.productoDesc = this.productosLista[i];
+            break;
+          }
+        }
+        // console.log(this.productoDesc);
+        
+        resolve(this.productoDesc);
+          
+        
+      });
+      
+
+    });
   }
 
   buscarProducto(termino : string){

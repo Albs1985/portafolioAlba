@@ -1,4 +1,4 @@
-<section *ngIf="productoDesc"><!-- class="ae-container-fluid ae-container-fluid--full" -->  
+<section *ngIf="productoDesc"><!-- class="ae-container-fluid ae-container-fluid--full" TODO: /portafolioAlba/-->  
     <header *ngIf="idCarpetaImagen" [ngStyle]="{'background-image': 'url(/portafolioAlba/assets/productos/'+idCarpetaImagen+'/main.jpg)'}"    
       class="rk-portfolio-cover item-inside-1">
       <div class="item-inside__meta">
@@ -11,11 +11,11 @@
         <div class="ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left">
           <h2 class="rk-portfolio-inner-title ">{{productoDesc.subtitulo1}}</h2>
         </div>
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right rk-portfolio-details">
+        <!-- <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right rk-portfolio-details">
           <p class="rk-portfolio-inner-client "><span class="ae-lambda">Client: </span><span class="ae-u-bolder">Agency Design Studio</span></p>
           <p class="au-underline rk-portfolio-inner-website "><a target="_blank" href="#0" class="ae-kappa">www.agencydesign.com</a></p>
           <p class="ae-kappa ae-u-bold rk-portfolio-inner-date ">{{fecha | date:'yyyy-MM-dd'}}</p>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="ae-container-fluid ae-container-fluid--inner rk-portfolio--inner">
@@ -37,7 +37,25 @@
           <p class="ae-u-bolder">{{productoDesc.subtitulo2}}</p>
         </div>
       </div>
-      <div class="ae-grid ae-grid--collapse au-xs-ptp-1 au-xs-pbp-1">
+      <div class="ae-grid ae-grid--collapse">
+        <div class="ae-grid__item item-lg-6">
+          <img *ngIf="idCarpetaImagen" src="assets/productos/{{idCarpetaImagen}}/pic-2.jpg" alt="Imagen 2"></div>
+        <div class="ae-grid__item item-lg-5 item-lg--offset-1 au-lg-ptp-1">
+          <h4 class="ae-u-bolder">Detalle</h4>
+          <!-- <p class="ae-eta">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p> -->
+          <p class="ae-eta">{{productoDesc.resumen}}</p>
+        </div>
+      </div>
+      <div class="ae-grid ae-grid--collapse">
+        <div class="ae-grid__item item-lg-6">
+          <img *ngIf="idCarpetaImagen" src="assets/productos/{{idCarpetaImagen}}/pic-3.jpg" alt=""></div>
+        <div class="ae-grid__item item-lg-5 item-lg--offset-1 au-lg-ptp-1">
+          <h4 class="ae-u-bolder">Más dibujos!</h4>
+          <!-- <p class="ae-eta">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p> -->
+          <p class="ae-eta">{{productoDesc.resumen}}</p>
+        </div>
+      </div>
+      <!-- <div class="ae-grid ae-grid--collapse au-xs-ptp-1 au-xs-pbp-1">
         <div class="ae-grid__item item-lg-8 item-lg--offset-2">
           <h4 class="ae-u-bolder">Full Wide Text</h4>
           <p class="ae-eta">{{productoDesc.desc2}}</p>
@@ -46,7 +64,7 @@
       </div>
       <div class="ae-grid ae-grid--collapse">
         <div class="ae-grid__item item-lg--auto">
-          <img *ngIf="idCarpetaImagen" src="assets/img/project{{id}}.jpg" alt="Imagen Proyecto"></div>
+          <img *ngIf="idCarpetaImagen" src="assets/productos/project{{id}}.jpg" alt="Imagen Proyecto"></div>
       </div>
       <div class="ae-grid ae-grid--collapse">
         <div class="ae-grid__item item-lg-6">
@@ -56,7 +74,7 @@
           <p class="ae-eta">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
           <p class="ae-eta">{{productoDesc.resumen}}</p>
         </div>
-      </div>
+      </div> -->
       <!-- <div class="ae-grid--alt test">
         <div class="ae-grid__item--alt item-sm--auto item-sm--offset-1 item-lg--offset-0 item-sm--end item-sm--bottom">
           <div class="ae-grid ae-grid--alt8 au-xs-ta-center au-sm-ta-left">

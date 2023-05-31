@@ -9,7 +9,8 @@ import { ProductosService } from 'src/app/services/productos.service';
 export class PortafolioComponent {
 
   constructor (public productosService : ProductosService){
-
+    // console.log(productosService);
+    // console.log(productosService.productosLista);
   }
   
 }

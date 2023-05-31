@@ -11,6 +11,9 @@ import { ProductosService } from 'src/app/services/productos.service';
 export class ItemComponent implements OnInit{
 
   productoDesc : ProductoDescripcion = {
+    cod : '',
+    titulo: '',
+    url: '',
     categoria: '',
     desc1: '',
     desc2: '',
@@ -27,7 +30,8 @@ export class ItemComponent implements OnInit{
   
   constructor(private route: ActivatedRoute,
               private productoService: ProductosService){
-
+                // console.log('ALBERT CONSTRUCTOR');
+                // this.productoService.cargarProductos();
   }
 
   ngOnInit(): void {
@@ -36,16 +40,31 @@ export class ItemComponent implements OnInit{
       // console.log(parametros);
       // console.log(parametros['id']);
 
-      this.productoService.getProducto(parametros['id']).subscribe((producto: any) => {
+      // this.productoService.getProducto(parametros['id']).subscribe((producto: any) => {
         
         // console.log(producto);
+        // console.log('parametros[id]');
         // console.log(parametros['id']);
 
-        this.productoDesc = producto;
         this.idCarpetaImagen = parametros['id'];
         this.id = this.idCarpetaImagen.substring(this.idCarpetaImagen.indexOf('-'));
+      
+        this.productoService.getProducto(parametros['id']).then((valor : any) => {
+          
+          // console.log('valor');
+          // console.log(valor);
+          // console.log('this.productoDesc');
+          // console.log(this.productoDesc);
+          // console.log('this.idCarpetaImagen');
+          // console.log(this.idCarpetaImagen);
+          // console.log('this.id');
+          // console.log(this.id);
+          this.productoDesc = valor;
+        }); 
+        
 
-      });
+        // this.productoDesc = this.productoService.getProducto(parametros['id']); 
+      // });
 
     });
 
