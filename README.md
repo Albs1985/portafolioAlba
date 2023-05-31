@@ -36,5 +36,7 @@ git add .
 git commit -m "Comentario del commit"
 git status (arbol limpio)
 
+git push
+
 
 
