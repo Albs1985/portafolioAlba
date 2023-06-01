@@ -79,7 +79,7 @@ export class ProductosService {
 
           this.cargando = false;
 
-          resolve(true);
+          resolve(this.productosLista);
           
         });
       

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Galería de Imágenes</h1>
+    <div class="gallery-container">
+        
+        <div *ngFor="let dibujo of dibujos" class="animated bounceIn gallery__item">
+            <img *ngIf="dibujo" src='assets/productos/{{dibujo.cod}}/main.jpg' alt="" class="gallery__img">
+        </div>
+        <div *ngFor="let dibujo of dibujos" class="animated bounceIn gallery__item">
+            <img *ngIf="dibujo" src='assets/productos/{{dibujo.cod}}/pic-1.jpg' alt="" class="gallery__img">
+        </div>
+        <div *ngFor="let dibujo of dibujos" class="animated bounceIn gallery__item">
+            <img *ngIf="dibujo" src='assets/productos/{{dibujo.cod}}/pic-2.jpg' alt="" class="gallery__img">            
+        </div>
+        <div *ngFor="let dibujo of dibujos" class="animated bounceIn gallery__item">
+            <img *ngIf="dibujo" src='assets/productos/{{dibujo.cod}}/pic-3.jpg' alt="" class="gallery__img">
+        </div>
+
+        <!-- <div class="gallery__item">
+            <img src="assets/productos/dibujo-1.jpg" alt="" class="animated bounceIn gallery__img">
+            <h2 class="gallery_title">
+                Dibujo 1
+            </h2>
+        </div>
+        <div class="gallery__item">
+            <img src="assets/productos/dibujo-2.jpg " alt="" class="animated bounceIn gallery__img">
+            <h2 class="gallery_title">
+                Dibujo 2
+            </h2>
+        </div>
+        <div class="gallery__item">
+            <img src="assets/productos/dibujo-3.jpg" alt="" class="animated bounceIn gallery__img">
+            <h2 class="gallery_title">
+                Dibujo 3
+            </h2>
+        </div>
+        <div class="gallery__item">
+            <img src="assets/productos/dibujo-4.jpg" alt="" class="animated bounceIn gallery__img">
+            <h2 class="gallery_title">
+                Dibujo 4
+            </h2>
+        </div>
+        <div class="gallery__item">
+            <img src="assets/productos/dibujo-5.jpg" alt="" class="animated bounceIn gallery__img">
+            <h2 class="gallery_title">
+                Dibujo 5
+            </h2>
+        </div>
+        <div class="gallery__item">
+            <img src="assets/productos/dibujo-6.jpg" alt="" class="animated bounceIn gallery__img">
+            <h2 class="gallery_title">
+                Dibujo 6
+            </h2>
+        </div>
+        <div class="gallery__item">
+            <img src="assets/productos/dibujo-7.jpg" alt="" class="animated bounceIn gallery__img">
+            <h2 class="gallery_title">
+                Dibujo 7
+            </h2>
+        </div>
+        <div class="gallery__item">
+            <img src="assets/productos/dibujo-8.jpg" alt="" class="animated bounceIn gallery__img">
+            <h2 class="gallery_title">
+                Dibujo 8
+            </h2>
+        </div>
+        <div class="gallery__item">
+            <img src="assets/productos/dibujo-9.jpg" alt="" class="animated bounceIn gallery__img">
+            <h2 class="gallery_title">
+                Dibujo 9
+            </h2>
+        </div>
+        <div class="gallery__item">
+            <img src="assets/productos/dibujo-10.jpg" alt="" class="animated bounceIn gallery__img">
+            <h2 class="gallery_title">
+                Dibujo 10
+            </h2>
+        </div>
+        <div class="gallery__item">
+            <img src="assets/productos/dibujo-11.jpg" alt="" class="animated bounceIn gallery__img">
+            <h2 class="gallery_title">
+                Dibujo 11
+            </h2>
+        </div>
+        <div class="gallery__item">
+            <img src="assets/productos/dibujo-12.jpg" alt="" class="animated bounceIn gallery__img">
+            <h2 class="gallery_title">
+                Dibujo 12
+            </h2>
+        </div>
+        <div class="gallery__item">
+            <img src="assets/productos/dibujo-13.jpg" alt="" class="animated bounceIn gallery__img">
+            <h2 class="gallery_title">
+                Dibujo 13
+            </h2>
+        </div> -->
+        
+    </div>   
+    
+</body>
+</html>

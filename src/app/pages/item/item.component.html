@@ -1,5 +1,5 @@
 <section *ngIf="productoDesc"><!-- class="ae-container-fluid ae-container-fluid--full" TODO: /portafolioAlba/-->  
-    <header *ngIf="idCarpetaImagen" [ngStyle]="{'background-image': 'url(/portafolioAlba/assets/productos/'+idCarpetaImagen+'/main.jpg)'}"    
+    <header *ngIf="idCarpetaImagen" [ngStyle]="{'background-image': 'url(assets/productos/'+idCarpetaImagen+'/main.jpg)'}"    
       class="rk-portfolio-cover item-inside-1">
       <div class="item-inside__meta">
         <h1 class="ae-u-bolder rk-portfolio-title ">{{productoDesc.producto}}</h1>
@@ -25,12 +25,14 @@
           <p class="ae-eta">{{productoDesc.desc1}} </p>
           <!-- <p class="ae-eta">It includes a A6 flyer, A5 folder, A4 horizontal paper and a business card mockup. You can easily put your own graphics and create a new layout according to your needs.</p> -->
         </div>
-        <div class="ae-grid__item item-lg-6 item-lg--offset-1">
-          <img *ngIf="idCarpetaImagen" src='assets/productos/{{idCarpetaImagen}}/main.jpg' alt="Imagen Principal"></div>
+        <div class="animated bounceIn ae-grid__item item-lg-6 item-lg--offset-1">
+          <img *ngIf="idCarpetaImagen" src='assets/productos/{{idCarpetaImagen}}/main.jpg' alt="Imagen Principal">
+        </div>
       </div>
       <div class="ae-grid ae-grid--collapse">
-        <div class="ae-grid__item item-lg-8">
-          <img *ngIf="idCarpetaImagen" src="assets/productos/{{idCarpetaImagen}}/pic-1.jpg" alt="Imagen 1"></div>
+        <div class="animated flip ae-grid__item item-lg-8">
+          <img *ngIf="idCarpetaImagen" src="assets/productos/{{idCarpetaImagen}}/pic-1.jpg" alt="Imagen 1">
+        </div>
         <div class="ae-grid__item item-lg-3 item-lg--offset-1 au-lg-ptp-1">
           <p>{{productoDesc.desc2}} </p>
           <!-- <p class="au-mb-3">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit <br>in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p> -->
@@ -38,17 +40,26 @@
         </div>
       </div>
       <div class="ae-grid ae-grid--collapse">
-        <div class="ae-grid__item item-lg-6">
+        <div class="animated rollIn ae-grid__item item-lg-6">
           <img *ngIf="idCarpetaImagen" src="assets/productos/{{idCarpetaImagen}}/pic-2.jpg" alt="Imagen 2"></div>
         <div class="ae-grid__item item-lg-5 item-lg--offset-1 au-lg-ptp-1">
-          <h4 class="ae-u-bolder">Detalle</h4>
+          <h4 class="ae-u-bolder">Imagina que ...</h4>
           <!-- <p class="ae-eta">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p> -->
           <p class="ae-eta">{{productoDesc.resumen}}</p>
         </div>
       </div>
       <div class="ae-grid ae-grid--collapse">
-        <div class="ae-grid__item item-lg-6">
+        <div class="animated lightSpeedInLeft ae-grid__item item-lg-6">
           <img *ngIf="idCarpetaImagen" src="assets/productos/{{idCarpetaImagen}}/pic-3.jpg" alt=""></div>
+        <div class="ae-grid__item item-lg-5 item-lg--offset-1 au-lg-ptp-1">
+          <h4 class="ae-u-bolder">Y si pudiera ...</h4>
+          <!-- <p class="ae-eta">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p> -->
+          <p class="ae-eta">Las personas exitosas hacen mejores preguntas y como resultado obtienen mejores respuestas</p>
+        </div>
+      </div>
+      <div class="ae-grid ae-grid--collapse">
+        <div class="animated lightSpeedInLeft ae-grid__item item-lg-6">
+          <img *ngIf="idCarpetaImagen" src="assets/productos/{{idCarpetaImagen}}/pic-4.jpg" alt=""></div>
         <div class="ae-grid__item item-lg-5 item-lg--offset-1 au-lg-ptp-1">
           <h4 class="ae-u-bolder">Quiero más!!</h4>
           <!-- <p class="ae-eta">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p> -->

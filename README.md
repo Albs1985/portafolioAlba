@@ -29,7 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Comandos git para subir cambios y desplegar:
 ng build
-copiar el directorio dist a la carpeta de docs
+PARA QUE SE DESPLIEGUE EN LA WEB, DEBEMOS copiar el directorio dist a la carpeta de docs
 
 git s
 git add .
@@ -37,6 +37,9 @@ git commit -m "Comentario del commit"
 git status (arbol limpio)
 
 git push
+
+
+
 
 
 

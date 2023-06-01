@@ -91,9 +91,70 @@
     "desc1": "Los animales del mundo existen por su propia razón. No fueron hecho para los humanos",
     "desc2": "Los animales no son propiedades o cosas, sino organismos vivientes, sujetos de una vida, que merecen nuestra compasión, respeto, amistad y apoyo",
     "producto": "Dibujos de animales",
-    "resumen": "No creo en el concepto de infierno, pero si lo hiciese, pensaría en el como lleno de gente que fue cruel con los animale",
+    "resumen": "No creo en el concepto de infierno, pero si lo hiciese, pensaría en el como lleno de gente que fue cruel con los animales",
     "subtitulo1": "La grandeza de una nación y su progreso moral puede ser juzgado por la forma en que sus animales son tratados",
     "subtitulo2": "Puedes juzgar el verdadero carácter de un hombre por la forma en que trata a sus compañeros animales"
+  },
+  "prod-9": {
+    "cod": "dibujo-9",
+    "titulo": "Papeles",
+    "url": "dibujo-9",
+    "categoria": "Papeles sobrantes",
+    "desc1": "Me agradan las mujeres hermosas que se lavan con agua pura, los chistosos que no preparan sus chistes y los literatos que escriben sin pensar en la imprenta.",
+    "desc2": "La imprenta es un ejército de veintiséis soldados de plomo con el que se puede conquistar el mundo.",
+    "producto": "Fotografía",
+    "resumen": "Las redes de computadoras, como la imprenta hace 500 años, permiten que el ciudadano común distribuya sus puntos de vista en diversos modos y a audiencias diferentes, lo cual antes no era posible. Este nuevo fondo de libertad ofrece consigo muchos temas sociales, políticos y morales sin resolver",
+    "subtitulo1": "La libertad de imprenta, como la de conciencia, la de enseñanza, la de reunión, la de asociación y todas las demás libertades, ya os lo hemos dicho, para ser una verdad deben ser amplias, completas, sin trabas de ninguna clase.",
+    "subtitulo2": "Además, la creciente distribución de videoclips breves por internet está convenciéndonos de que, al final la televisión se considerará un medio de transición entre la era de la imprenta y la de internet."
+  },
+  "prod-10": {
+    "cod": "dibujo-10",
+    "titulo": "Animales",
+    "url": "dibujo-10",
+    "categoria": "Dibujo",
+    "desc1": "Los animales del mundo existen por su propia razón. No fueron hecho para los humanos",
+    "desc2": "Los animales no son propiedades o cosas, sino organismos vivientes, sujetos de una vida, que merecen nuestra compasión, respeto, amistad y apoyo",
+    "producto": "Dibujos de animales",
+    "resumen": "No creo en el concepto de infierno, pero si lo hiciese, pensaría en el como lleno de gente que fue cruel con los animales",
+    "subtitulo1": "La grandeza de una nación y su progreso moral puede ser juzgado por la forma en que sus animales son tratados",
+    "subtitulo2": "Puedes juzgar el verdadero carácter de un hombre por la forma en que trata a sus compañeros animales"
+  },
+  "prod-11": {
+    "cod": "dibujo-11",
+    "titulo": "Dibujos realistas de plantas",
+    "url": "dibujo-11",
+    "categoria": "Dibujos",
+    "desc1": "Dibujar es una forma de sondeo. Y el primer impulso genérico para dibujar deriva de la necesidad humana de buscar, trazar puntos, colocar las cosas y colocarse",
+    "desc2": "No dejes de dibujar algo todos los días, porque por poco que sea, valdrá la pena, y te hará un mundo de bien.",
+    "producto": "Dibujos naturales de plantas",
+    "resumen": "Con el máximo detalle, para poder disfrutar de la naturaleza también en papel",
+    "subtitulo1": "Impresionante!",
+    "subtitulo2": "Con el papel de más alta calidad"
+  },
+  "prod-12": {
+    "cod": "dibujo-12",
+    "titulo": "Dibujos realistas de manos",
+    "url": "dibujo-12",
+    "categoria": "Dibujos",
+    "desc1": "Cuando un hombre toca la mano de una mujer, ambos tocan el corazón de la eternidad.",
+    "desc2": "He visto una pareja correr fuerte para no perder el autobús. Hubiera sido más fácil soltarse la mano pero ellos querían perderlo juntos.",
+    "producto": "Dibujos naturales de manos",
+    "resumen": "He visto una pareja correr fuerte para no perder el autobús. Hubiera sido más fácil soltarse la mano pero ellos querían perderlo juntos.",
+    "subtitulo1": "Dame tu mano… ¿Ves? Ahora todo pesa la mitad…",
+    "subtitulo2": "Si no sabes qué hacer con tus manos, transfórmalas en caricias."
+  },
+  "prod-13": {
+    "cod": "dibujo-13",
+    "titulo": "Dibujos realistas de utensilios",
+    "url": "dibujo-13",
+    "categoria": "Dibujos",
+    "desc1": "Inteligencia es hacer artificiales los objetos, especialmente las herramientas para hacer herramientas.",
+    "desc2": "En mi infancia, un objeto parecía resumir los remedios para el hombre en apuros: la navaja suiza.",
+    "producto": "Dibujos naturales de manos",
+    "resumen": "Un ser humano rodeado de herramientas, es decir, de hachas, puntas de flecha, clavos, cuchillos, en una palabra, de cultura, ya no se encuentra en el mundo como en su propia casa, cosa que sí sucedía con el ser humano prehistórico que utilizaba las manos: aquél está alejado del mundo, y la cultura le protege y es su cárcel.",
+    "subtitulo1": "Es un pobre trabajador quien insulta a sus herramientas, el buen hombre continua con su trabajo, dado lo que tiene, y consigue la mejor respuesta que puede.",
+    "subtitulo2": "A mis libros, más que como reflejo o representación, los pienso como instrumentos o herramientas, para operar sobre la realidad, precisamente."
   }
+
 
 }

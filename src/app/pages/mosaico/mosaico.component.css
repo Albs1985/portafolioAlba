@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* background: white; */
+    margin: 0;
+    /* font-family: monospace; */
+
+}
+
+h1{
+    color: #444;
+    text-align: center;
+}
+
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);/*Para hacer 3 columnas y que tengan el mismo tamaño*/
+    grid-auto-rows: 150px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+.gallery__item{
+    position: relative;
+}
+
+.gallery_title{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    /*background: linear-gradient(white, black);/*Para un degradado de colores*/
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));/*Para un degradado de colores*/
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    font-size: xx-small;
+}
+
+.gallery__img{
+    width: 100%;
+    height: 100%;/*con esto hacemos los tamaños iguales, podría no interesarnos */
+    object-fit: cover;/*Para que no se distorsione la imagen*/
+}
+
+.gallery__item:nth-child(2){/*Para manipular una imagen en concreto: la imagen 4*/
+    grid-column-start: span 2; /*Si queremos que esta imagen ocupe dos columnas*/    
+}
+
+.gallery__item:nth-child(3){/*Para manipular una imagen en concreto: la imagen 4*/
+    /* grid-column-start: span 2; *//*Si queremos que esta imagen ocupe dos columnas*/
+    grid-row-start: span 2;/*Si queremos que esta imagen ocupe dos filas*/
+}
+
+.gallery__item:nth-child(4){/*Para manipular una imagen en concreto: la imagen 4*/
+    /* grid-column-start: span 2; *//*Si queremos que esta imagen ocupe dos columnas*/
+    grid-row-start: span 2;/*Si queremos que esta imagen ocupe dos filas*/
+}
+
+.gallery__item:nth-child(8){/*Para manipular una imagen en concreto: la imagen 4*/
+    grid-column-start: span 2; /*Si queremos que esta imagen ocupe dos columnas*/    
+}
+
+.gallery__item:nth-child(10){/*Para manipular una imagen en concreto: la imagen 4*/
+    /* grid-column-start: span 2; *//*Si queremos que esta imagen ocupe dos columnas*/
+    grid-column-start: span 2;/*Si queremos que esta imagen ocupe dos filas*/
+}
+
+.gallery__item:nth-child(11){/*Para manipular una imagen en concreto: la imagen 4*/
+    /* grid-column-start: span 2; *//*Si queremos que esta imagen ocupe dos columnas*/
+    grid-row-start: span 2;/*Si queremos que esta imagen ocupe dos filas*/
+}
+
+.gallery__item:nth-child(13){/*Para manipular una imagen en concreto: la imagen 4*/
+    /* grid-column-start: span 2; *//*Si queremos que esta imagen ocupe dos columnas*/
+    grid-row-start: span 2;/*Si queremos que esta imagen ocupe dos filas*/
+}
+
+.gallery__item:nth-child(40){/*Para manipular una imagen en concreto: la imagen 4*/
+    /* grid-column-start: span 2; *//*Si queremos que esta imagen ocupe dos columnas*/
+    grid-column-start: span 2;/*Si queremos que esta imagen ocupe dos filas*/
+}
+
+.gallery__item:nth-child(41){/*Para manipular una imagen en concreto: la imagen 4*/
+    /* grid-column-start: span 2; *//*Si queremos que esta imagen ocupe dos columnas*/
+    grid-column-start: span 2;/*Si queremos que esta imagen ocupe dos filas*/
+}
+
+.gallery__item:nth-child(42){/*Para manipular una imagen en concreto: la imagen 4*/
+    /* grid-column-start: span 2; *//*Si queremos que esta imagen ocupe dos columnas*/
+    grid-column-start: span 2;/*Si queremos que esta imagen ocupe dos filas*/
+}
+
+.gallery__item:nth-child(52){/*Para manipular una imagen en concreto: la imagen 4*/
+    /* grid-column-start: span 2; *//*Si queremos que esta imagen ocupe dos columnas*/
+    grid-column-start: span 3;/*Si queremos que esta imagen ocupe dos filas*/
+}
+
+@media(min-width: 768px){
+    .gallery-container{
+        grid-template-columns: repeat(4, 1fr);/*Para hacer 3 columnas y que tengan el mismo tamaño*/
+        grid-auto-rows: 350px;
+        padding: 20px;
+        grid-gap: 10px;
+    }
+    .gallery_title{
+        font-size: small;
+    }
+    .gallery__item:nth-child(1){/*Para manipular una imagen en concreto: la imagen 4*/
+        grid-column-start: span 2;/*Si queremos que esta imagen ocupe dos filas*/
+    }
+    .gallery__item:nth-child(2){/*Para manipular una imagen en concreto: la imagen 4*/
+        grid-column-start: span 2;/*Si queremos que esta imagen ocupe dos filas*/
+    }
+    .gallery__item:nth-child(3){/*Para manipular una imagen en concreto: la imagen 4*/
+        grid-column-start: span 2;/*Si queremos que esta imagen ocupe dos filas*/
+    }
+    .gallery__item:nth-child(4){/*Para manipular una imagen en concreto: la imagen 4*/
+        grid-column-start: span 2;/*Si queremos que esta imagen ocupe dos filas*/
+    }
+    .gallery__item:nth-child(7){/*Para manipular una imagen en concreto: la imagen 4*/
+        grid-column-start: span 2;/*Si queremos que esta imagen ocupe dos filas*/
+    }
+    .gallery__item:nth-child(9){/*Para manipular una imagen en concreto: la imagen 4*/
+        grid-column-start: span 2;/*Si queremos que esta imagen ocupe dos filas*/
+    }
+    .gallery__item:nth-child(10){/*Para manipular una imagen en concreto: la imagen 4*/
+        grid-column-start: span 2;/*Si queremos que esta imagen ocupe dos filas*/
+    }
+    .gallery__item:nth-child(11){/*Para manipular una imagen en concreto: la imagen 4*/
+        grid-column-start: span 2;/*Si queremos que esta imagen ocupe dos filas*/
+    }
+    .gallery__item:nth-child(12){/*Para manipular una imagen en concreto: la imagen 4*/
+        grid-column-start: span 2;/*Si queremos que esta imagen ocupe dos filas*/
+    }
+    .gallery__item:nth-child(13){/*Para manipular una imagen en concreto: la imagen 4*/
+        grid-column-start: span 2;/*Si queremos que esta imagen ocupe dos filas*/
+    }
+}
+
+@media(min-width: 1024px){
+    .gallery-container{
+        grid-template-columns: repeat(5, 1fr);/*Para hacer 3 columnas y que tengan el mismo tamaño*/
+        grid-auto-rows: 250px;
+        padding: 20px;
+        grid-gap: 10px;
+    }
+    .gallery_title{
+        font-size: medium;
+    }
+    .gallery__item:nth-child(10){/*Para manipular una imagen en concreto: la imagen 4*/
+        grid-column-start: span 3;/*Si queremos que esta imagen ocupe dos filas*/
+        grid-row-start: span 2;/*Si queremos que esta imagen ocupe dos filas*/
+    }
+}
