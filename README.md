@@ -28,6 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## Comandos git para subir cambios y desplegar:
+ https://github.com/Albs1985/portafolioAlba.git
 ng build
 PARA QUE SE DESPLIEGUE EN LA WEB, DEBEMOS copiar el directorio dist a la carpeta de docs
 
