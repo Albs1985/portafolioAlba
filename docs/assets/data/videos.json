@@ -1,0 +1,8 @@
+{
+    "video1" : {
+        "titulo": "Título Video 1",
+        "descripcion": "Descripción Máquina 1",
+        "url": "video-1.mp4"    
+    }
+
+}
