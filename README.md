@@ -39,7 +39,17 @@ git status (arbol limpio)
 
 git push
 
+Si falla al subirlo al GIT por este error, le damos más buffer:
+error: unable to rewind rpc post data - try increasing http.postBuffer error: RPC failed; curl 56 ioctl callback returned error 2 fatal: the remote end hung up unexpectedly
 
+git config --global http.postBuffer 2097152000
+git config --global https.postBuffer 2097152000
+
+AUNQUE NO SIRVE TAMPOCO...
+
+Podemos subir los ficheros a mano, en la carpeta dist cogerlos y llevarlos a la carpeta docs
+## Curso de Udemy:
+https://www.udemy.com/course/html-hacia-angular/
 
 
 
