@@ -1,0 +1,28 @@
+{
+    "app": {
+        "titulo": "Portfolio Alba",
+        "galeriaImagenes": "Image Gallery"
+    },
+    "main": {
+        "idioma": "Language",
+        "spanish": "Spanish",
+        "english": "English",
+        "catalan": "Catalan",
+        "home": "Home",
+        "galeria": "Gallery",
+        "video": "Multimedia",
+        "sobre": "About me"
+    },
+    "about":{
+        "titulo": "Portfolio Alba",
+        "frase": "The secret of true success is KNOWLEDGE coupled with ACTION.",
+        "nombre": "Alba Casares Català",
+        "subtitulo": "Artist, Designer",
+        "acerca": "«No one can make you feel inferior without your consent» — Eleanor Roosevelt",
+        "soriano" : "Books and bound editor in chief",
+        "mapubli" : "Digital printing in large format, small format, textile and 3D",
+        "valores": "Values",
+        "textoValores" : "Respect between people and the environment. Striving for perfection, we like to constantly improve. Proactivity, we take our challenges very seriously, we do not want to stop innovating. Fellowship, essential to work as a solid team."
+    }
+    
+}

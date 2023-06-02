@@ -1,0 +1,29 @@
+{
+    "app": {
+        "titulo": "Portafoli Alba",
+        "galeriaImagenes": "Galeria d'Imatges"
+    },
+
+    "main": {
+        "idioma": "Idioma",
+        "spanish": "Castellà",
+        "english": "Anglès",
+        "catalan": "Català",
+        "home": "Inici",
+        "galeria": "Galeria",
+        "video": "Vídeo",
+        "sobre": "Quant a mi"
+    },
+    "about":{
+        "titulo": "Portfoli Alba",
+        "frase": "El secret de l'èxit veritable és el CONEIXEMENT unit a l'ACCIÓ.",
+        "nombre": "Alba Casares Català",
+        "subtitulo": "Artista, Disenyadora",
+        "acerca": "«Ningú et pot fer sentir inferior sense el teu consentiment» — Eleanor Roosevelt",
+        "soriano" : "Cap d'edició de Llibres i enquadernats",
+        "mapubli" : "Impressió digital en gran format, petit format, tèxtil i 3D",
+        "valores": "Valors",
+        "textoValores" : "El respecte entre persones i amb el medi ambient. L'esforç per la perfecció ens agrada millorar constantment. La proactivitat, ens prenem molt de debò els nostres reptes, no volem parar d'innovar. La companyonia, imprescindible per treballar com un equip sòlid."
+    }
+    
+}
