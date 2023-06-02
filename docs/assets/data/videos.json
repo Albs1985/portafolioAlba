@@ -3,6 +3,61 @@
         "titulo": "Título Video 1",
         "descripcion": "Descripción Máquina 1",
         "url": "video-1.mp4"    
+    },
+    "video2" : {
+        "titulo": "Título Video 2",
+        "descripcion": "Descripción Máquina 2",
+        "url": "video-2.mp4"    
+    },
+    "video3" : {
+        "titulo": "Título Video 3",
+        "descripcion": "Descripción Máquina 3",
+        "url": "video-3.mp4"    
+    },
+    "video4" : {
+        "titulo": "Título Video 4",
+        "descripcion": "Descripción Máquina 4" ,
+        "url": "video-4.mp4"    
+    },
+    "video5" : {
+        "titulo": "Título Video 5",
+        "descripcion": "Descripción Máquina 5",
+        "url": "video-5.mp4"    
+    },
+    "video7" : {
+        "titulo": "Título Video 7",
+        "descripcion": "Descripción Máquina 7",
+        "url": "video-7.mp4"    
+    },
+    "video9" : {
+        "titulo": "Título Video 9",
+        "descripcion": "Descripción Máquina 9",
+        "url": "video-9.mov"    
+    },
+    "video10" : {
+        "titulo": "Título Video 10",
+        "descripcion": "Descripción Máquina 10" ,
+        "url": "video-10.mp4"    
+    },
+    "video11" : {
+        "titulo": "Título Video 11",
+        "descripcion": "Descripción Máquina 11",
+        "url": "video-11.mp4"    
+    },
+    "video12" : {
+        "titulo": "Título Video 12",
+        "descripcion": "Descripción Máquina 12",
+        "url": "video-12.mov"    
+    },
+    "video13" : {
+        "titulo": "Título Video 13",
+        "descripcion": "Descripción Máquina 13",
+        "url": "video-13.mov"    
+    },
+    "video14" : {
+        "titulo": "Título Video 14 Youtube",
+        "descripcion": "Como pedir Copias - Fotocopias online por la Web de Copistería Soriano",
+        "url": "https://www.youtube.com/watch?v=f3i9SiiLiXY"
     }
 
 }
