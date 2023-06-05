@@ -1,7 +1,10 @@
 {
     "app": {
         "titulo": "Portafoli Alba",
-        "galeriaImagenes": "Galeria d'Imatges"
+        "galeriaImagenes": "Galeria d'Imatges",
+        "cargando": "Carregant...",
+        "videoNoSoportado": "El vostre navegador no suporta aquest tipus de vídeo",
+        "youtubeVideos" : "Vídeos de Youtube"
     },
 
     "main": {

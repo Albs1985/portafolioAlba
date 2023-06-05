@@ -1,7 +1,10 @@
 {
     "app": {
         "titulo": "Portafolio Alba",
-        "galeriaImagenes": "Galería de Imágenes"
+        "galeriaImagenes": "Galería de Imágenes",
+        "cargando": "Cargando...",
+        "videoNoSoportado": "Tu navegador no soporta este tipo de video",
+        "youtubeVideos" : "Vídeos de Youtube"
     },
     "main": {
         "idioma": "Idioma",
