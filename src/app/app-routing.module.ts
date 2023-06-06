@@ -5,6 +5,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { SearchComponent } from './pages/search/search.component';
 import { MosaicoComponent } from './pages/mosaico/mosaico.component';
+import { VideosComponent } from './pages/videos/videos.component';
 
 const app_routes: Routes = [
   { path: 'home', component : PortafolioComponent},
@@ -12,6 +13,7 @@ const app_routes: Routes = [
   { path: 'item/:id', component : ItemComponent},
   { path: 'search/:termino', component : SearchComponent},
   { path: 'mosaico', component : MosaicoComponent},
+  { path: 'videos', component : VideosComponent},
   { path: '**', pathMatch: 'full', redirectTo : 'home'},
 ];
 

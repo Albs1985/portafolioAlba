@@ -1,26 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Galería de Imágenes</h1>
+
+    <h1>{{ 'app.galeriaImagenes' | translate }}</h1>
     <div class="gallery-container">
         
         <div *ngFor="let dibujo of dibujos" class="animated bounceIn gallery__item">
             <img *ngIf="dibujo" src='assets/productos/{{dibujo.cod}}/main.jpg' alt="" class="gallery__img">
+            <h2 class="gallery_title">
+                {{dibujo.cod}}
+            </h2>
         </div>
         <div *ngFor="let dibujo of dibujos" class="animated bounceIn gallery__item">
             <img *ngIf="dibujo" src='assets/productos/{{dibujo.cod}}/pic-1.jpg' alt="" class="gallery__img">
+            <h2 class="gallery_title">
+                {{dibujo.cod}}
+            </h2>
         </div>
         <div *ngFor="let dibujo of dibujos" class="animated bounceIn gallery__item">
-            <img *ngIf="dibujo" src='assets/productos/{{dibujo.cod}}/pic-2.jpg' alt="" class="gallery__img">            
+            <img *ngIf="dibujo" src='assets/productos/{{dibujo.cod}}/pic-2.jpg' alt="" class="gallery__img"> 
+            <h2 class="gallery_title">
+                {{dibujo.cod}}
+            </h2>           
         </div>
         <div *ngFor="let dibujo of dibujos" class="animated bounceIn gallery__item">
             <img *ngIf="dibujo" src='assets/productos/{{dibujo.cod}}/pic-3.jpg' alt="" class="gallery__img">
+            <h2 class="gallery_title">
+                {{dibujo.cod}}
+            </h2>
+        </div>
+        <div *ngFor="let dibujo of dibujos" class="animated bounceIn gallery__item">
+            <!-- <img *ngIf="dibujo" src='assets/productos/{{dibujo.cod}}/pic-4.jpg' alt="" class="gallery__img" onerror="this.src='assets/img/post-6.jpg';"> -->
+            <img *ngIf="this.imgExist" src='assets/productos/{{dibujo.cod}}/pic-4.jpg' alt="" class="gallery__img" onError="this.imgExist = false">
+            <h2 class="gallery_title">
+                {{dibujo.cod}}
+            </h2>
         </div>
 
         <!-- <div class="gallery__item">
@@ -103,6 +114,4 @@
         </div> -->
         
     </div>   
-    
-</body>
-</html>
+ 

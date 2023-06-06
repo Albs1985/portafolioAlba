@@ -11,12 +11,13 @@ export class MosaicoComponent {
 
   numFotos: number = 3;
   dibujos : ProductoDescripcion[] = [];
+  imgExist: boolean = true;
 
   constructor(public productoService: ProductosService){
    
     this.productoService.cargarProductos().then((valor : any) => {
       this.dibujos = valor;
-      console.log(this.dibujos);
+      // console.log(this.dibujos);
     }); 
 
   }

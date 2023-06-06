@@ -1,0 +1,147 @@
+.tituloVideo{
+  position: relative;
+  top: 0;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));/*Para un degradado de colores*/
+  width: 100%;
+  
+  font-size: small;
+  text-align: center;
+}
+
+.videoYoutube{  
+  height: 260px;
+  width: 340px;
+  position: relative;
+  border: 5px solid rgb(212, 212, 212);
+  box-shadow: 5px 10px 8px #888888;;
+  overflow: hidden;
+  border-radius: 25px 25px;
+  margin-bottom: 50px;
+}
+
+.descripcionVideo{
+  position: relative;
+  bottom: 0;
+  color: black;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));/*Para un degradado de colores*/
+  width: 100%;
+  
+  font-size: small;
+  text-align: center;
+}
+
+.video-container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);/*Para hacer 3 columnas y que tengan el mismo tamaño*/
+  padding: 20px;
+  grid-gap: 20px;  
+}
+
+.video-item{
+    position: relative;
+    width: 100% !important;
+    height: 100% !important;    
+}
+
+.vid-border{
+  position: relative;
+  height: 260px;
+  width: 340px;
+  border: 5px solid rgb(212, 212, 212);
+  box-shadow: 5px 10px 8px #888888;;
+  overflow: hidden;
+  border-radius: 25px 25px;
+  margin-bottom: 50px;
+}
+
+/*ESTE TAMAÑO ES EL DE MOVIL, ES DECIR, CON PANTALLA PEQUEÑA*/
+.vid-border:nth-child(5){
+  height: 650px;  
+}
+.vid-border:nth-child(6){
+  height: 650px;  
+}
+/* .vid-border:nth-child(5){
+  height: 650px;
+}
+.vid-border:nth-child(6){
+  height: 650px;
+}
+.vid-border:nth-child(12){
+  height: 650px;
+} */
+
+/*ESTE TAMAÑO ES EL DE TABLE, ES DECIR, CON PANTALLA MEDIANA*/
+@media(min-width: 850px){
+  .video-container{    
+    grid-template-columns: repeat(2, 1fr);/*Para hacer 3 columnas y que tengan el mismo tamaño*/
+    padding: 20px;
+    grid-gap: 10px;
+  }
+}
+
+/*ESTE TAMAÑO ES EL DE PC, ES DECIR, CON PANTALLA GRANDE*/
+@media(min-width: 1000px){
+  .videoYoutube{  
+    height: 280px;
+    width: 400px;
+  }
+  .vid-border{
+    height: 280px;
+    width: 400px;
+  }
+  .vid-border:nth-child(5){
+    height: 760px;
+    width: 400px;
+  }
+  .vid-border:nth-child(6){
+    height: 760px;
+    width: 400px;
+  }
+
+  /* .vid-border:nth-child(5){
+    height: 760px;
+    width: 400px;
+  }
+  .vid-border:nth-child(6){
+    height: 760px;
+    width: 400px;
+  }
+  .vid-border:nth-child(12){
+    height: 760px;
+    width: 400px;
+  } */
+}
+/*ESTE TAMAÑO ES EL DE PC, ES DECIR, CON PANTALLA GRANDE*/
+@media(min-width: 1400px){
+  .videoYoutube{  
+    height: 430px;
+    width: 654px;
+  }
+  .vid-border{
+    height: 430px;
+    width: 654px;
+  }
+  .vid-border:nth-child(5){
+    height: 1210px;
+    width: 654px;
+  }
+  .vid-border:nth-child(6){
+    height: 1210px;
+    width: 654px;
+  }
+  /* .vid-border:nth-child(5){
+    height: 1210px;
+    width: 654px;
+  }
+  .vid-border:nth-child(6){
+    height: 1210px;
+    width: 654px;
+  }
+  .vid-border:nth-child(12){
+    height: 1210px;
+    width: 654px;
+  } */
+}
+

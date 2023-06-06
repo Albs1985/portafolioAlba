@@ -1,0 +1,37 @@
+/* #flag_es{
+    background-image: url('assets/img/flag_es.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#flag_en{
+    background-image: url('assets/img/flag_es.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#flag_cat{
+    background-image: url('assets/img/flag_es.png');
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+ */
+
+
+ .flag_icon_idioma{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 55px;  
+    height: 55px;  
+    /* filter: grayscale(80%); */
+    filter: sepia(100%);
+ }
+
+ .seleccionado{
+    /* border: 10px solid transparent; *//*PARA HACER LA IMAGEN MÁS PEQUEÑA, LA QUE ESTÉ SELECCIONADA*/
+    border-radius: 30px;    
+    border: 5px solid grey;
+ }
+
+ button{
+    border: transparent;
+    background-color: transparent;
+ }
