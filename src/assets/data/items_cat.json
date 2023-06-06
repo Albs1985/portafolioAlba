@@ -1,0 +1,172 @@
+{
+  "prod-1": {
+    "cod": "dibujo-1",
+    "titulo": "Edició de Llibres",
+    "url": "dibujo-1",
+    "categoria": "Llibres",
+    "desc1": "El procés de pintar és, abans que res, el procés de posar en acció la intel·ligència visual, els mecanismes del pensament visual. A diferència de la pintura o l'escultura és el procés pel qual l'artista s'aclareix a si mateix, i no a l'espectador, que està fent. És el soliloqui abans que es converteixi en comunicació",
+    "desc2": "El dibuix i el color no estan separats en absolut, mentre pintes, dibuixes. Més harmonitza el color, més exacte es torna el dibuix",
+    "producto": "Edició de Llibres",
+    "resumen": "Creació original i nova de dissenys molt creatius. Malgrat tot m'aixecaré de nou: prendré el meu llapis, que he deixat en el meu gran desànim, i seguiré amb el meu dibuix.",
+    "subtitulo1": "Llibre fet a mà",
+    "subtitulo2": "Amb afecte i professionalitat"
+  },
+  "prod-2": {
+    "cod": "dibujo-2",
+    "titulo": "Quaderns de viatge",
+    "url": "dibujo-2",
+    "categoria": "Llibres",
+    "desc1": "Aprofita les teves vacances al màxim, amb un quadern de viatge fet a mà amb què podràs detallar les teves aventures!",
+    "desc2": "Si vols ser un artista, porta un quadern de dibuix amb tu i dibuixa tot el que vegis.",
+    "producto": "Quaderns de viatge",
+    "resumen": "Dibuixar és com el primer petó. Porta a l'interior l'emoció més profunda i el desafiament del primer pas. És el primer crit després del naixement. Aprofita les teves vacances al màxim, amb un quadern de viatge fet a mà amb el que podràs detallar les teves aventures!",
+    "subtitulo1": "Quaderns fets a mà amb amor",
+    "subtitulo2": "Les persones han de parlar menys i dibuixar més. Personalment, m'agradaria renunciar per complet de la parla i, igual que la naturalesa orgànica, comunicar tot el que he de dir visualment"
+  },
+  "prod-3": {
+    "cod": "dibujo-3",
+    "titulo": "Dibuixos realistes d'animals",
+    "url": "dibujo-3",
+    "categoria": "Dibuixos",
+    "desc1": "El que jo sempre busco en dibuixar és transmetre emocions fortes. Quan llegeixo un guió i el visualitzo, intento plasmar-lo al paper de la forma més emocionant i immersiva que puc",
+    "desc2": "Em va prendre quatre anys pintar com Rafael, però em va portar tota una vida aprendre a dibuixar com un nen.",
+    "producto": "Dibuixos naturals d'animals",
+    "resumen": "Tingueu en compte que un dibuix no és una còpia. És una construcció en materials molt diferents. Un dibuix és un invent. Gaudeix d'un retrat original de la teva mascota o animal favorit",
+    "subtitulo1": "Per tenir un record",
+    "subtitulo2": "A punt per emmarcar"
+  },
+  "prod-4": {
+    "cod": "dibujo-4",
+    "titulo": "Dibuixos realistes de persones",
+    "url": "dibujo-4",
+    "categoria": "Dibuixos",
+    "desc1": "És només dibuixant sovint, dibuixant-ho tot, dibuixant incessantment, que un bon dia descobreixes, per a la teva sorpresa, que has renderitzat alguna cosa en el seu veritable caràcter",
+    "desc2": "Un dibuix és simplement una línia que va a fer una passejada",
+    "producto": "Dibuixos naturals de persones",
+    "resumen": "Gaudeix d'un retrat original d'una persona especial. És només dibuixant sovint, dibuixant-ho tot, dibuixant incessantment, que un bon dia descobreixes, per a la teva sorpresa, que has renderitzat alguna cosa en el seu veritable caràcter",
+    "subtitulo1": "Millor que la realitat!",
+    "subtitulo2": "A punt per emmarcar"
+  },
+  "prod-5": {
+    "cod": "dibujo-5",
+    "titulo": "Dibuixos realistes de plantes",
+    "url": "dibujo-5",
+    "categoria": "Dibuixos",
+    "desc1": "Dibuixar és una forma de sondeig. I el primer impuls genèric per dibuixar deriva de la necessitat humana de buscar, traçar punts, col·locar les coses i col·locar-se",
+    "desc2": "No deixis de dibuixar alguna cosa cada dia, perquè per poc que sigui, valdrà la pena, i et farà un món de bé.",
+    "producto": "Dibuixos naturals de plantes",
+    "resumen": "Amb el màxim detall, per poder gaudir de la natura també en paper",
+    "subtitulo1": "Impressionant!",
+    "subtitulo2": "Amb el paper de més alta qualitat"
+  },
+  "prod-6": {
+    "cod": "dibujo-6",
+    "titulo": "Restauració de Llibres",
+    "url": "dibujo-6",
+    "categoria": "Llibres",
+    "desc1": "Restaurem llibres antics que han perdut color i també consistència",
+    "desc2": "El jove ha d'aprendre primer la perspectiva, després les proporcions dels objectes. A continuació, copieu el treball de la mà d'un bon mestre, per adquirir l'hàbit de dibuixar bé parts del cos, i després treballar des de la naturalesa, per confirmar les lliçons apreses",
+    "producto": "Restauració de Llibres",
+    "resumen": "Per tornar a la vida a aquests llibres antics que tant t'agraden",
+    "subtitulo1": "Quedaran millor que nous!",
+    "subtitulo2": "A punt en una setmana"
+  },
+  "prod-7": {
+    "cod": "dibujo-7",
+    "titulo": "Aquarel·les",
+    "url": "dibujo-7",
+    "categoria": "Aquarel·la",
+    "desc1": "La tècnica ha de ser ensenyada, no com un fi en si mateix, sinó com una cosa relacionada amb l'expressió individual, com un mitjà cap a un fi. No es pot separar la tècnica de l'expressió. Només hi ha expressió",
+    "desc2": "Dibuixar és l'honestedat de l'art. No hi ha possibilitat de fer trampa. És bo o dolent. Amb tota la dedicació i màxim detall",
+    "producto": "Aquarel·les",
+    "resumen": "Inspirats a la natura, fets a la mateixa platja",
+    "subtitulo1": "Imagina el teu estiu",
+    "subtitulo2": "Gaudeix de les vacances"
+  },
+  "prod-8": {
+    "cod": "dibujo-8",
+    "titulo": "Animals",
+    "url": "dibujo-8",
+    "categoria": "Dibuix",
+    "desc1": "Els animals del món existeixen per la seva pròpia raó. No van ser fets per als humans",
+    "desc2": "Els animals no són propietats o coses, sinó organismes vivents, subjectes d'una vida, que mereixen la nostra compassió, respecte, amistat i suport",
+    "producto": "Dibuixos d'animals",
+    "resumen": "No crec en el concepte d'infern, però si ho fes, pensaria com ple de gent que va ser cruel amb els animals",
+    "subtitulo1": "La grandesa d'una nació i el seu progrés moral pot ser jutjat per la manera com els seus animals són tractats",
+    "subtitulo2": "Pots jutjar el veritable caràcter d'un home per la manera com tracta els seus companys animals"
+  },
+  "prod-9": {
+    "cod": "dibujo-9",
+    "titulo": "Papers",
+    "url": "dibujo-9",
+    "categoria": "Papers sobrants",
+    "desc1": "M'agraden les dones belles que es renten amb aigua pura, els acudits que no preparen els seus acudits i els literats que escriuen sense pensar en la impremta.",
+    "desc2": "La impremta és un exèrcit de vint-i-sis soldats de plom amb què es pot conquerir el món.",
+    "producto": "Fotografia",
+    "resumen": "Les xarxes d'ordinadors, com la impremta fa 500 anys, permeten que el ciutadà comú distribueixi els seus punts de vista en diverses maneres ia audiències diferents, cosa que abans no era possible. Aquest nou fons de llibertat ofereix molts temes socials, polítics i morals sense resoldre",
+    "subtitulo1": "La llibertat d'impremta, com la de consciència, la d'ensenyament, la de reunió, la d'associació i totes les altres llibertats, ja us ho hem dit, per ser una veritat han de ser àmplies, completes, sense traves de cap mena.",
+    "subtitulo2": "A més, la creixent distribució de videoclips breus per internet està convencent-nos que, al final, la televisió es considerarà un mitjà de transició entre l'era de la impremta i la d'internet."
+  },
+  "prod-10": {
+    "cod": "dibujo-10",
+    "titulo": "Animals",
+    "url": "dibujo-10",
+    "categoria": "Dibuixos",
+    "desc1": "Els animals del món existeixen per la seva pròpia raó. No van ser fets per als humans",
+    "desc2": "Els animals no són propietats o coses, sinó organismes vivents, subjectes d'una vida, que mereixen la nostra compassió, respecte, amistat i suport",
+    "producto": "Dibuixos d'animals",
+    "resumen": "No crec en el concepte d'infern, però si ho fes, pensaria com ple de gent que va ser cruel amb els animals",
+    "subtitulo1": "La grandesa d'una nació i el seu progrés moral pot ser jutjat per la manera com els seus animals són tractats",
+    "subtitulo2": "Pots jutjar el veritable caràcter d'un home per la manera com tracta els seus companys animals"
+  },
+  "prod-11": {
+    "cod": "dibujo-11",
+    "titulo": "Dibuixos realistes de plantes",
+    "url": "dibujo-11",
+    "categoria": "Dibuixos",
+    "desc1": "Dibuixar és una forma de sondeig. I el primer impuls genèric per dibuixar deriva de la necessitat humana de buscar, traçar punts, col·locar les coses i col·locar-se",
+    "desc2": "No deixis de dibuixar alguna cosa cada dia, perquè per poc que sigui, valdrà la pena, i et farà un món de bé.",
+    "producto": "Dibuixos naturals de plantes",
+    "resumen": "Amb el màxim detall, per poder gaudir de la natura també en paper",
+    "subtitulo1": "Impressionant!",
+    "subtitulo2": "Amb el paper de més alta qualitat"
+  },
+  "prod-12": {
+    "cod": "dibujo-12",
+    "titulo": "Dibuixos realistes de mans",
+    "url": "dibujo-12",
+    "categoria": "Dibuixos",
+    "desc1": "Quan un home toca la mà d'una dona, tots dos toquen el cor de l'eternitat.",
+    "desc2": "He vist una parella córrer fort per no perdre l'autobús. Hauria estat més fàcil deixar-se anar la mà però ells volien perdre'l junts.",
+    "producto": "Dibuixos naturals de mans",
+    "resumen": "He vist una parella córrer fort per no perdre l'autobús. Hauria estat més fàcil deixar-se anar la mà però ells volien perdre'l junts.",
+    "subtitulo1": "Dóna'm la teva mà… Veus? Ara tot pesa la meitat…",
+    "subtitulo2": "Si no saps què fer amb les teves mans, transforma-les en carícies."
+  },
+  "prod-13": {
+    "cod": "dibujo-13",
+    "titulo": "Dibuixos realistes d'utensilis",
+    "url": "dibujo-13",
+    "categoria": "Dibuixos",
+    "desc1": "Intel·ligència és fer artificials els objectes, especialment les eines per fer eines.",
+    "desc2": "A la meva infància, un objecte semblava resumenir els remeis per a l'home en dificultats: la navalla suïssa.",
+    "producto": "Dibuixos naturals de mans",
+    "resumen": "Un ésser humà envoltat d'eines, és a dir, de destrals, puntes de fletxa, claus, ganivets, en una paraula, de cultura, ja no es troba al món com a casa seva, cosa que sí que succeïa amb l'ésser humà prehistòric que utilitzava les mans: aquell està allunyat del món, i la cultura el protegeix i n'és la presó.",
+    "subtitulo1": "És un pobre treballador qui insulta les seves eines, el bon home continua amb la seva feina, atès el que té, i aconsegueix la millor resposta que pot.",
+    "subtitulo2": "Als meus llibres, més que com a reflex o representació, els penso com a instruments o eines, per operar sobre la realitat, precisament."
+  },
+  "prod-14": {
+    "cod": "dibujo-14",
+    "titulo": "Llibres a granel",
+    "url": "dibujo-14",
+    "categoria": "Llibres",
+    "desc1": "Gutenberg, la teva impremta ha estat violada per aquest malvat llibre.",
+    "desc2": "Ningú no pot llegir dos mil llibres. Als quatre segles que visc no hauré passat d'una mitja dotzena. A més no importa llegir sinó rellegir. La impremta, ara abolida, ha estat un dels pitjors mals de l'home, ja que va tendir a multiplicar fins al vertigen textos innecessaris",
+    "producto": "Llibres enquadernats",
+    "resumen": "Dels diversos instruments inventats per l'home, el més sorprenent és el llibre; tots els altres són extensions del seu cos. Només el llibre és una extensió de la imaginació i la memòria",
+    "subtitulo1": "L'escriptor escriu el seu llibre per explicar-se a si mateix el que no es pot explicar",
+    "subtitulo2": "Un bon escriptor expressa grans coses amb petites paraules; a la inversa del mal escriptor, que diu coses insignificants amb paraules grandioses"
+  }
+
+
+}
