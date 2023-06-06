@@ -3,6 +3,7 @@
         "titulo": "Portfolio Alba",
         "galeriaImagenes": "Image Gallery",
         "cargando": "Loading...",
+        "espere": "Wait please",
         "videoNoSoportado": "Your browser does not support this type of video",
         "youtubeVideos" : "Youtube Vídeos"
     },
@@ -26,6 +27,15 @@
         "mapubli" : "Digital printing in large format, small format, textile and 3D",
         "valores": "Values",
         "textoValores" : "Respect between people and the environment. Striving for perfection, we like to constantly improve. Proactivity, we take our challenges very seriously, we do not want to stop innovating. Fellowship, essential to work as a solid team."
+    },
+    "item":{
+        "anterior": "Previous Project",
+        "siguiente": "Next Project",
+        "frase1" : "I can't help but draw what I see.",
+        "frase2": "I Want more!!",
+        "frase3": "Successful people ask better questions and get better answers as a result.",
+        "frase4": "If I could ...",
+        "frase5": "Imagine that ..."        
     }
     
 }
