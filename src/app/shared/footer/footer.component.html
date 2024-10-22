@@ -5,25 +5,23 @@
         <li class="rk-menu__item"><a routerLink="about" class="rk-menu__link">{{ 'main.sobre' | translate }}</a>
         </li>
         <!-- <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Docs</a>
-        </li> 
+        </li>
         <li class="rk-menu__item"><a routerLink="home" class="rk-menu__link">Contact</a>
         </li>-->
       </ul>
       <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">{{anio}} {{_servicio.info.nombre_corto}} PORTFOLIO </span>All Right Reserved.</p>
     </div>
     <div class="ae-grid__item item-lg-4 au-xs-ta-center">
-      <a target="_blank" [href]=_servicio.info.facebook class="rk-social-btn "><!-- <a href={{_servicio.info.facebook}} class="rk-social-btn "> TAMBIÉN ES CORRECTO -->
-        <img src="assets/img/facebook_icon.png">
-      </a>      
-      <a target="_blank" [href]=_servicio.info.linkedIn class="rk-social-btn "><!-- <a href={{_servicio.info.twitter}} class="rk-social-btn "> TAMBIÉN ES CORRECTO -->
+      <!-- <a target="_blank" [href]=_servicio.info.facebook class="rk-social-btn ">   <img src="assets/img/facebook_icon.png">
+      </a>       -->
+      <a target="_blank" [href]=_servicio.info.linkedIn class="rk-social-btn size"><!-- <a href={{_servicio.info.twitter}} class="rk-social-btn "> TAMBIÉN ES CORRECTO -->
         <img src="assets/img/linkedin_icon.png">
       </a>
-      <a target="_blank" [href]=_servicio.info.instagram class="rk-social-btn ">
+      <a target="_blank" [href]=_servicio.info.instagram class="rk-social-btn size">
         <img src="assets/img/instagram_icon.svg">
       </a>
-      <a target="_blank" [href]=_servicio.info.youtube class="rk-social-btn "><!-- <a href={{_servicio.info.pinterest}} class="rk-social-btn "> TAMBIÉN ES CORRECTO-->
-        <img src="assets/img/youtube_icon.png">
-      </a>
+      <!-- <a target="_blank" [href]=_servicio.info.youtube class="rk-social-btn "><img src="assets/img/youtube_icon.png">
+      </a> -->
     </div>
     <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
       <p class="rk-footer__text rk-footer__contact "> <span class="ae-u-bold">Email: </span><span class="ae-u-bolder"> <a target="_blank" href="mailTo:{{_servicio.info.email}}" class="rk-dark-color ">{{_servicio.info.email}}</a></span></p>

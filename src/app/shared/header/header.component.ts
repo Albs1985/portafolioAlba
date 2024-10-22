@@ -1,4 +1,4 @@
-import { Component, NgModule } from '@angular/core';
+import { Component, ElementRef, NgModule, ViewChild } from '@angular/core';
 // import { InfoPagina } from '../../interfaces/info-pagina.interface';
 import { InfoPaginaService } from 'src/app/services/info-pagina.service';
 import { Router } from '@angular/router';
@@ -16,6 +16,7 @@ import { TranslateService, TranslateModule } from '@ngx-translate/core';
 
 export class HeaderComponent  {
 
+  @ViewChild('menuNavigation') menuNavigation!: ElementRef;
 
   isSelectedSpanish : boolean = true;
   isSelectedCatalan : boolean = false;
@@ -51,6 +52,7 @@ export class HeaderComponent  {
     this.isSelectedSpanish = true;
     this.isSelectedCatalan = false;
     this.isSelectedEnglish = false;
+    this.closeMobileMenu();
     console.log('Idioma cambiado al Español');
     // window.location.reload();
   }
@@ -61,6 +63,7 @@ export class HeaderComponent  {
     this.isSelectedSpanish = false;
     this.isSelectedCatalan = false;
     this.isSelectedEnglish = true;
+    this.closeMobileMenu();
     console.log('Idioma cambiado al Inglés');
     // window.location.reload();
   }
@@ -71,8 +74,12 @@ export class HeaderComponent  {
     this.isSelectedSpanish = false;
     this.isSelectedCatalan = true;
     this.isSelectedEnglish = false;
+    this.closeMobileMenu();
     console.log('Idioma cambiado al Catalan');
     // window.location.reload();
+  }
+  closeMobileMenu(): void {
+    this.menuNavigation.nativeElement.checked = false;
   }
 
 }

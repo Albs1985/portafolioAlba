@@ -1,0 +1,65 @@
+.timeline {
+  margin: 40px auto; /* Ajustar espacio entre los contenedores */
+  padding: 20px;
+  max-width: 800px;
+  border-left: 2px solid #ccc;
+}
+
+.timeline-item {
+  margin: 20px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.timeline-item:before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  background-color: #f39c12;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.timeline-content {
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.position {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.location {
+  font-style: italic;
+  color: #555;
+  margin-top: 5px;
+}
+
+#fotoDivAbout {
+  margin-bottom: 40px; /* Asegura suficiente espacio entre el div superior y el timeline */
+}
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+/*
+.profile-picture {
+  width: 150px; /* Tamaño de la imagen *
+  height: 150px;
+  border-radius: 50%;
+} */
