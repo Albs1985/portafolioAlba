@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Competencia } from '../interfaces/competencia.interface';
-import { ProductoDescripcion } from '../interfaces/producto-descripcion.interface';
+import { CompetenciaDescripcion } from '../interfaces/competencia-descripcion.interface';
 import { TranslateService } from '@ngx-translate/core';
 
 @Injectable({
@@ -10,9 +10,9 @@ import { TranslateService } from '@ngx-translate/core';
 export class CompetenciasService {
 
   competencias : Competencia[] = [];
-  productosLista : ProductoDescripcion[] = [];
+  competenciasLista : CompetenciaDescripcion[] = [];
   competenciasFiltrado : Competencia[] = [];
-  productoDesc : ProductoDescripcion = {
+  productoDesc : CompetenciaDescripcion = {
     categoria: '',
     cod : '',
     titulo: '',
@@ -88,12 +88,12 @@ export class CompetenciasService {
           // console.log(array); // your required array
 
 
-          this.productosLista = array;
+          this.competenciasLista = array;
           // console.log(this.productosLista);
 
           this.cargando = false;
 
-          resolve(this.productosLista);
+          resolve(this.competenciasLista);
 
         });
 
@@ -146,15 +146,15 @@ export class CompetenciasService {
         }
 
 
-        this.productosLista = array;
+        this.competenciasLista = array;
         // console.log('ALBERT');
-        for (var i=0; i<this.productosLista.length; i++){
+        for (var i=0; i<this.competenciasLista.length; i++){
           // console.log('id');
           // console.log(id);
           // console.log('this.productosLista[i].cod');
           // console.log(this.productosLista[i].cod);
-          if (id === this.productosLista[i].cod){
-            this.productoDesc = this.productosLista[i];
+          if (id === this.competenciasLista[i].cod){
+            this.productoDesc = this.competenciasLista[i];
             break;
           }
         }

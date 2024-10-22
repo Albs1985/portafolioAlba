@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ProductoDescripcion } from 'src/app/interfaces/producto-descripcion.interface';
+import { CompetenciaDescripcion } from 'src/app/interfaces/competencia-descripcion.interface';
 import { CompetenciasService } from 'src/app/services/competencias.service';
 
 @Component({
@@ -10,7 +10,7 @@ import { CompetenciasService } from 'src/app/services/competencias.service';
 export class MosaicoComponent {
 
   numFotos: number = 3;
-  dibujos : ProductoDescripcion[] = [];
+  dibujos : CompetenciaDescripcion[] = [];
   imgExist: boolean = true;
 
   constructor(public competenciasService: CompetenciasService){

@@ -57,9 +57,8 @@
   align-items: center;
   text-align: center;
 }
-/*
+
 .profile-picture {
-  width: 150px; /* Tamaño de la imagen *
-  height: 150px;
-  border-radius: 50%;
-} */
+  width: 350px;
+  /* height: 150px; */
+}

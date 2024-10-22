@@ -13,8 +13,9 @@
     </label>
     <div class="ae-container-fluid rk-topbar">
       <h1 class="rk-logo">
-        <a routerLink="">{{ 'app.titulo' | translate }}<sup>tm</sup></a></h1>
-      <nav class="rk-navigation"  #menuNavigation>
+        <a routerLink="">{{ 'app.titulo' | translate }}</a>
+      </h1>
+      <nav class="rk-navigation" #menuNavigation>
         <ul class="rk-menu">
           <li routerLinkActive="active" class="rk-menu__item">
             <a routerLink="home" class="rk-menu__link">{{ 'main.competencias' | translate }}</a>
@@ -29,36 +30,30 @@
             <a routerLink="about" class="rk-menu__link">{{ 'main.sobre' | translate }}</a>
           </li>
 
-          <li class="rk-menu__item"><a href="" class="rk-menu__link">{{ 'main.idioma' | translate }}</a>
+          <!-- <li class="rk-menu__item"><a href="" class="rk-menu__link">{{ 'main.idioma' | translate }}</a>
             <nav class="rk-menu__sub">
               <ul class="rk-container">
                 <li class="rk-menu__item">
                   <div *ngIf=isSelectedCatalan>
-                    <!-- <button (click)="changeLanguageToCatalan()"><img class="flag_icon_idioma seleccionado" alt="" src="/portafolioalba/assets/img/flag_cat.png"/></button> -->
                     <button (click)="changeLanguageToCatalan()"><img class="flag_icon_idioma seleccionado" alt="" src="/portafolioalba/assets/img/flag_cat.png"/></button>
                   </div>
                   <div *ngIf=!isSelectedCatalan>
-                    <!-- <button (click)="changeLanguageToCatalan()"><img class="flag_icon_idioma" alt="" src="/portafolioalba/assets/img/flag_cat.png"/></button> -->
                     <button (click)="changeLanguageToCatalan()"><img class="flag_icon_idioma" alt="" src="/portafolioalba/assets/img/flag_cat.png"/></button>
                   </div>
                 </li>
                 <li class="rk-menu__item">
                   <div *ngIf=isSelectedSpanish>
-                    <!-- <button (click)="changeLanguageToSpanish()"><img class="flag_icon_idioma seleccionado" alt="" src="/portafolioalba/assets/img/flag_es.png"/></button> -->
                     <button (click)="changeLanguageToSpanish()"><img class="flag_icon_idioma seleccionado" alt="" src="/portafolioalba/assets/img/flag_es.png"/></button>
                   </div>
                   <div *ngIf=!isSelectedSpanish>
-                    <!-- <button (click)="changeLanguageToSpanish()"><img class="flag_icon_idioma" alt="" src="/portafolioalba/assets/img/flag_es.png"/></button> -->
                     <button (click)="changeLanguageToSpanish()"><img class="flag_icon_idioma" alt="" src="/portafolioalba/assets/img/flag_es.png"/></button>
                   </div>
                 </li>
                 <li class="rk-menu__item">
                   <div *ngIf=isSelectedEnglish>
-                    <!-- <button (click)="changeLanguageToEnglish()"><img class="flag_icon_idioma seleccionado" alt="" src="/portafolioalba/assets/img/flag_en.png"/></button> -->
                     <button (click)="changeLanguageToEnglish()"><img class="flag_icon_idioma seleccionado" alt="" src="/portafolioalba/assets/img/flag_en.png"/></button>
                   </div>
                   <div *ngIf=!isSelectedEnglish>
-                    <!-- <button (click)="changeLanguageToEnglish()"><img class="flag_icon_idioma" alt="" src="/portafolioalba/assets/img/flag_en.png"/></button> -->
                     <button (click)="changeLanguageToEnglish()"><img class="flag_icon_idioma" alt="" src="/portafolioalba/assets/img/flag_en.png"/></button>
                   </div>
                 </li>
@@ -67,10 +62,10 @@
                 </li>
                 <li class="rk-menu__item">
                   <button id="flag_en" type="button" [translate]="'main.english'" class="dropdown-item" (click)="changeLanguageToEnglish()"></button>
-                </li> -->
+                </li> --
               </ul>
             </nav>
-          </li>
+          </li> -->
         </ul>
         <!-- <div class="rk-search">
           <input type="text"

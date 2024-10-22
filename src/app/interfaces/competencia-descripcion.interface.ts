@@ -1,4 +1,4 @@
-export interface ProductoDescripcion{
+export interface CompetenciaDescripcion{
     categoria: string;
     cod: string;
     titulo: string;

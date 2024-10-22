@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
-import { ProductoDescripcion } from 'src/app/interfaces/producto-descripcion.interface';
+import { CompetenciaDescripcion } from 'src/app/interfaces/competencia-descripcion.interface';
 import { CompetenciasService } from 'src/app/services/competencias.service';
 
 @Component({
@@ -11,7 +11,7 @@ import { CompetenciasService } from 'src/app/services/competencias.service';
 })
 export class ItemComponent implements OnInit{
 
-  productoDesc : ProductoDescripcion = {
+  productoDesc : CompetenciaDescripcion = {
     cod : '',
     titulo: '',
     url: '',

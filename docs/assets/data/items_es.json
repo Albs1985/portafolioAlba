@@ -62,8 +62,8 @@
   "comp-6": {
     "cod": "competencia-6",
     "titulo": "Maquinaria",
-    "url": "dibujo-6",
-    "categoria": "Libros",
+    "url": "competenciaMaquinaria",
+    "categoria": "",
     "desc1": "Restauramos libros antiguos que han perdido color y también consistencia",
     "desc2": "El joven debe aprender primero la perspectiva, luego las proporciones de los objetos. A continuación, copie el trabajo de la mano de un buen maestro, para adquirir el hábito de dibujar bien partes del cuerpo, y luego trabajar desde la naturaleza, para confirmar las lecciones aprendidas",
     "producto": "Restauración de Libros",

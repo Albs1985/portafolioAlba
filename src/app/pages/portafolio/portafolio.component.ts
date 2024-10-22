@@ -15,7 +15,10 @@ export class PortafolioComponent {
     // console.log(productosService.productosLista);
     translate.onLangChange.subscribe((event: LangChangeEvent) => {
       // console.log('CAMBIO DE IDIOMA ESCUCHADO POR EL PORTAFOLIO');
-      this.competenciasService.cargarCompetencias();
+      this.competenciasService.cargarCompetencias().then(()=>{
+        console.log(this.competenciasService.competenciasLista)
+      });
+
     });
   }
 
