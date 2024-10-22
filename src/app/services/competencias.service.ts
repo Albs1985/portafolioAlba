@@ -1,18 +1,18 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Producto } from '../interfaces/producto.interface';
+import { Competencia } from '../interfaces/competencia.interface';
 import { ProductoDescripcion } from '../interfaces/producto-descripcion.interface';
 import { TranslateService } from '@ngx-translate/core';
 
 @Injectable({
   providedIn: 'root'
 })
-export class ProductosService {
+export class CompetenciasService {
 
-  productos : Producto[] = [];
+  competencias : Competencia[] = [];
   productosLista : ProductoDescripcion[] = [];
-  productosFiltrado : Producto[] = [];
-  productoDesc : ProductoDescripcion = {     
+  competenciasFiltrado : Competencia[] = [];
+  productoDesc : ProductoDescripcion = {
     categoria: '',
     cod : '',
     titulo: '',
@@ -30,16 +30,16 @@ export class ProductosService {
   constructor(private http: HttpClient,
               private translate: TranslateService) {
 
-    this.cargarProductos();
+    this.cargarCompetencias();
 
   }
 
-  cargarProductos(){
+  cargarCompetencias(){
 
     //Añadimos el PROMISE para esperar a que se carguen los productos
     return new Promise( (resolve, reject) => {
       // this.http.get('https://angular-html-b9db3-default-rtdb.europe-west1.firebasedatabase.app/productos_idx.json')
-      
+
       // console.log(this.translate.currentLang);
 
       if (this.translate.currentLang === 'es'){
@@ -57,7 +57,7 @@ export class ProductosService {
           for(let key in response){
             // console.log(key);
             // console.log(response[key]);
-            this.productoDesc = {     
+            this.productoDesc = {
               categoria: '',
               cod : '',
               titulo: '',
@@ -83,8 +83,8 @@ export class ProductosService {
             // console.log(this.productoDesc);
             array.push(this.productoDesc);
             // console.log(array);
-            
-          } 
+
+          }
           // console.log(array); // your required array
 
 
@@ -94,11 +94,11 @@ export class ProductosService {
           this.cargando = false;
 
           resolve(this.productosLista);
-          
+
         });
-      
+
     });
-    
+
   }
 
   getProducto(id: String){
@@ -119,7 +119,7 @@ export class ProductosService {
 
         var array = [];
         for(let key in response){
-          this.productoDesc = {     
+          this.productoDesc = {
             categoria: '',
             cod : '',
             titulo: '',
@@ -143,7 +143,7 @@ export class ProductosService {
           this.productoDesc.subtitulo2 = response[key].subtitulo2;
 
           array.push(this.productoDesc);
-        } 
+        }
 
 
         this.productosLista = array;
@@ -153,27 +153,27 @@ export class ProductosService {
           // console.log(id);
           // console.log('this.productosLista[i].cod');
           // console.log(this.productosLista[i].cod);
-          if (id === this.productosLista[i].cod){        
+          if (id === this.productosLista[i].cod){
             this.productoDesc = this.productosLista[i];
             break;
           }
         }
         // console.log(this.productoDesc);
-        
+
         resolve(this.productoDesc);
-          
-        
+
+
       });
-      
+
 
     });
   }
 
   buscarProducto(termino : string){
 
-    if (this.productos.length === 0){
+    if (this.competencias.length === 0){
       //Cargar o esperar a que se carguen
-      this.cargarProductos().then(() => {
+      this.cargarCompetencias().then(() => {
         //ejecutar después de tener los productos
         //Aplicar filtro
         this.filtrarProductos(termino);
@@ -194,15 +194,15 @@ export class ProductosService {
   private filtrarProductos(termino : string){
 
     // console.log(this.productos);
-    this.productosFiltrado = [];
+    this.competenciasFiltrado = [];
     const terminoLower = termino.toLocaleLowerCase();
-    this.productos.forEach(prod => {
-      
-      const tituloLower = prod.titulo.toLocaleLowerCase();
-      const catergoriaLower = prod.categoria.toLocaleLowerCase();
+    this.competencias.forEach(comp => {
+
+      const tituloLower = comp.titulo.toLocaleLowerCase();
+      const catergoriaLower = comp.categoria.toLocaleLowerCase();
 
       if (catergoriaLower.indexOf(terminoLower) >=0 || tituloLower.indexOf(terminoLower) >=0){
-        this.productosFiltrado.push(prod);
+        this.competenciasFiltrado.push(comp);
       }
     });
 

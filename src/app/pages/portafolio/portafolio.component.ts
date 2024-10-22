@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
-import { ProductosService } from 'src/app/services/productos.service';
+import { CompetenciasService } from 'src/app/services/competencias.service';
 
 @Component({
   selector: 'app-portafolio',
@@ -9,16 +9,16 @@ import { ProductosService } from 'src/app/services/productos.service';
 })
 export class PortafolioComponent {
 
-  constructor (public productosService : ProductosService,
+  constructor (public competenciasService : CompetenciasService,
                 private translate: TranslateService){
     // console.log(productosService);
     // console.log(productosService.productosLista);
     translate.onLangChange.subscribe((event: LangChangeEvent) => {
       // console.log('CAMBIO DE IDIOMA ESCUCHADO POR EL PORTAFOLIO');
-      this.productosService.cargarProductos();
+      this.competenciasService.cargarCompetencias();
     });
   }
 
-  
-  
+
+
 }

@@ -3,7 +3,6 @@ import { Component, NgModule } from '@angular/core';
 import { InfoPaginaService } from 'src/app/services/info-pagina.service';
 import { Router } from '@angular/router';
 import { TranslateService, TranslateModule } from '@ngx-translate/core';
-import { AppComponent } from 'src/app/app.component';
 
 
 
@@ -17,12 +16,12 @@ import { AppComponent } from 'src/app/app.component';
 
 export class HeaderComponent  {
 
-  
+
   isSelectedSpanish : boolean = true;
   isSelectedCatalan : boolean = false;
   isSelectedEnglish : boolean = false;
-  
-  constructor (public _servicio : InfoPaginaService, 
+
+  constructor (public _servicio : InfoPaginaService,
                private router: Router,
                private translate: TranslateService){
 
@@ -33,7 +32,7 @@ export class HeaderComponent  {
     if (termino.length < 2){
       return;
     }
-    
+
     this.router.navigate(['/search', termino]);
 
   }

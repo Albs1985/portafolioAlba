@@ -17,6 +17,7 @@ import { VideosComponent } from './pages/videos/videos.component';
 
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { OpinionesComponent } from './pages/opiniones/opiniones.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
     ItemComponent,
     SearchComponent,
     MosaicoComponent,
-    VideosComponent    
+    VideosComponent,
+    OpinionesComponent    
   ],
   imports: [
     BrowserModule,

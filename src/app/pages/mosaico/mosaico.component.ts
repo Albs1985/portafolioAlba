@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ProductoDescripcion } from 'src/app/interfaces/producto-descripcion.interface';
-import { ProductosService } from 'src/app/services/productos.service';
+import { CompetenciasService } from 'src/app/services/competencias.service';
 
 @Component({
   selector: 'app-mosaico',
@@ -13,12 +13,12 @@ export class MosaicoComponent {
   dibujos : ProductoDescripcion[] = [];
   imgExist: boolean = true;
 
-  constructor(public productoService: ProductosService){
-   
-    this.productoService.cargarProductos().then((valor : any) => {
+  constructor(public competenciasService: CompetenciasService){
+
+    this.competenciasService.cargarCompetencias().then((valor : any) => {
       this.dibujos = valor;
       // console.log(this.dibujos);
-    }); 
+    });
 
   }
 
