@@ -1,7 +1,7 @@
 {
-  "prod-1": {
-    "cod": "dibujo-1",
-    "titulo": "Edición de Libros",
+  "comp-1": {
+    "cod": "competencia-1",
+    "titulo": "Preimpresión",
     "url": "dibujo-1",
     "categoria": "Libros",
     "desc1": "El proceso de pintar es, antes que nada, el proceso de poner en acción la inteligencia visual, los mecanismos del pensamiento visual. A diferencia de con la pintura o la escultura es el proceso por el que el artista se aclara a sí mismo, y no al espectador, que está haciendo. Es el soliloquio antes de que se convierta en comunicación",
@@ -11,9 +11,9 @@
     "subtitulo1": "Libro hecho a mano",
     "subtitulo2": "Con cariño y profesionalidad"
   },
-  "prod-2": {
-    "cod": "dibujo-2",
-    "titulo": "Cuadernos de viaje",
+  "comp-2": {
+    "cod": "competencia-2",
+    "titulo": "Diseño estructural y troquelados",
     "url": "dibujo-2",
     "categoria": "Libros",
     "desc1": "Aprovecha tus vacaciones al máximo, con un cuaderno de viaje hecho a mano con el que podrás detallar tus aventuras!",
@@ -23,9 +23,9 @@
     "subtitulo1": "Cuadernos hechos a mano con amor",
     "subtitulo2": "Las personas deben hablar menos y dibujar más. Personalmente, me gustaría renunciar por completo del habla y, al igual que la naturaleza orgánica, comunicar todo lo que tengo que decir visualmente"
   },
-  "prod-3": {
-    "cod": "dibujo-3",
-    "titulo": "Dibujos realistas de animales",
+  "comp-3": {
+    "cod": "competencia-3",
+    "titulo": "Alta producción",
     "url": "dibujo-3",
     "categoria": "Dibujos",
     "desc1": "Lo que yo siempre busco al dibujar es transmitir emociones fuertes. Cuando leo un guión y lo visualizo, intento plasmarlo al papel de la forma más emocionante e inmersiva que puedo",
@@ -35,9 +35,9 @@
     "subtitulo1": "Para tener un recuerdo",
     "subtitulo2": "Listo para enmarcar"
   },
-  "prod-4": {
-    "cod": "dibujo-4",
-    "titulo": "Dibujos realistas de personas",
+  "comp-4": {
+    "cod": "competencia-4",
+    "titulo": "Restauración de libros",
     "url": "dibujo-4",
     "categoria": "Dibujos",
     "desc1": "Es sólo dibujando a menudo, dibujando todo, dibujando incesantemente, que un buen día descubres, para tu sorpresa, que has renderizado algo en su verdadero carácter",
@@ -47,9 +47,9 @@
     "subtitulo1": "Mejor que la realidad!",
     "subtitulo2": "Listo para enmarcar"
   },
-  "prod-5": {
-    "cod": "dibujo-5",
-    "titulo": "Dibujos realistas de plantas",
+  "comp-5": {
+    "cod": "competencia-5",
+    "titulo": "Diseño gráfico",
     "url": "dibujo-5",
     "categoria": "Dibujos",
     "desc1": "Dibujar es una forma de sondeo. Y el primer impulso genérico para dibujar deriva de la necesidad humana de buscar, trazar puntos, colocar las cosas y colocarse",
@@ -59,9 +59,9 @@
     "subtitulo1": "Impresionante!",
     "subtitulo2": "Con el papel de más alta calidad"
   },
-  "prod-6": {
-    "cod": "dibujo-6",
-    "titulo": "Restauración de Libros",
+  "comp-6": {
+    "cod": "competencia-6",
+    "titulo": "Maquinaria",
     "url": "dibujo-6",
     "categoria": "Libros",
     "desc1": "Restauramos libros antiguos que han perdido color y también consistencia",
@@ -71,9 +71,9 @@
     "subtitulo1": "Quedarán mejor que nuevos!",
     "subtitulo2": "Listo en una semana"
   },
-  "prod-7": {
-    "cod": "dibujo-7",
-    "titulo": "Acuarelas",
+  "comp-7": {
+    "cod": "competencia-7",
+    "titulo": "Manipulados",
     "url": "dibujo-7",
     "categoria": "Acuarela",
     "desc1": "La técnica debe ser enseñada, no como un fin en sí mismo, sino como algo relacionado con la expresión individual, como un medio hacia un fin. No se puede separar la técnica de la expresión. Sólo hay expresión",
@@ -83,9 +83,9 @@
     "subtitulo1": "Imagina tu verano",
     "subtitulo2": "Disfruta de las vacaciones"
   },
-  "prod-8": {
-    "cod": "dibujo-8",
-    "titulo": "Animales",
+  "comp-8": {
+    "cod": "competencia-8",
+    "titulo": "Ilustración",
     "url": "dibujo-8",
     "categoria": "Dibujo",
     "desc1": "Los animales del mundo existen por su propia razón. No fueron hecho para los humanos",
@@ -94,78 +94,6 @@
     "resumen": "No creo en el concepto de infierno, pero si lo hiciese, pensaría en el como lleno de gente que fue cruel con los animales",
     "subtitulo1": "La grandeza de una nación y su progreso moral puede ser juzgado por la forma en que sus animales son tratados",
     "subtitulo2": "Puedes juzgar el verdadero carácter de un hombre por la forma en que trata a sus compañeros animales"
-  },
-  "prod-9": {
-    "cod": "dibujo-9",
-    "titulo": "Papeles",
-    "url": "dibujo-9",
-    "categoria": "Papeles sobrantes",
-    "desc1": "Me agradan las mujeres hermosas que se lavan con agua pura, los chistosos que no preparan sus chistes y los literatos que escriben sin pensar en la imprenta.",
-    "desc2": "La imprenta es un ejército de veintiséis soldados de plomo con el que se puede conquistar el mundo.",
-    "producto": "Fotografía",
-    "resumen": "Las redes de computadoras, como la imprenta hace 500 años, permiten que el ciudadano común distribuya sus puntos de vista en diversos modos y a audiencias diferentes, lo cual antes no era posible. Este nuevo fondo de libertad ofrece consigo muchos temas sociales, políticos y morales sin resolver",
-    "subtitulo1": "La libertad de imprenta, como la de conciencia, la de enseñanza, la de reunión, la de asociación y todas las demás libertades, ya os lo hemos dicho, para ser una verdad deben ser amplias, completas, sin trabas de ninguna clase.",
-    "subtitulo2": "Además, la creciente distribución de videoclips breves por internet está convenciéndonos de que, al final la televisión se considerará un medio de transición entre la era de la imprenta y la de internet."
-  },
-  "prod-10": {
-    "cod": "dibujo-10",
-    "titulo": "Animales",
-    "url": "dibujo-10",
-    "categoria": "Dibujo",
-    "desc1": "Los animales del mundo existen por su propia razón. No fueron hecho para los humanos",
-    "desc2": "Los animales no son propiedades o cosas, sino organismos vivientes, sujetos de una vida, que merecen nuestra compasión, respeto, amistad y apoyo",
-    "producto": "Dibujos de animales",
-    "resumen": "No creo en el concepto de infierno, pero si lo hiciese, pensaría en el como lleno de gente que fue cruel con los animales",
-    "subtitulo1": "La grandeza de una nación y su progreso moral puede ser juzgado por la forma en que sus animales son tratados",
-    "subtitulo2": "Puedes juzgar el verdadero carácter de un hombre por la forma en que trata a sus compañeros animales"
-  },
-  "prod-11": {
-    "cod": "dibujo-11",
-    "titulo": "Dibujos realistas de plantas",
-    "url": "dibujo-11",
-    "categoria": "Dibujos",
-    "desc1": "Dibujar es una forma de sondeo. Y el primer impulso genérico para dibujar deriva de la necesidad humana de buscar, trazar puntos, colocar las cosas y colocarse",
-    "desc2": "No dejes de dibujar algo todos los días, porque por poco que sea, valdrá la pena, y te hará un mundo de bien.",
-    "producto": "Dibujos naturales de plantas",
-    "resumen": "Con el máximo detalle, para poder disfrutar de la naturaleza también en papel",
-    "subtitulo1": "Impresionante!",
-    "subtitulo2": "Con el papel de más alta calidad"
-  },
-  "prod-12": {
-    "cod": "dibujo-12",
-    "titulo": "Dibujos realistas de manos",
-    "url": "dibujo-12",
-    "categoria": "Dibujos",
-    "desc1": "Cuando un hombre toca la mano de una mujer, ambos tocan el corazón de la eternidad.",
-    "desc2": "He visto una pareja correr fuerte para no perder el autobús. Hubiera sido más fácil soltarse la mano pero ellos querían perderlo juntos.",
-    "producto": "Dibujos naturales de manos",
-    "resumen": "He visto una pareja correr fuerte para no perder el autobús. Hubiera sido más fácil soltarse la mano pero ellos querían perderlo juntos.",
-    "subtitulo1": "Dame tu mano… ¿Ves? Ahora todo pesa la mitad…",
-    "subtitulo2": "Si no sabes qué hacer con tus manos, transfórmalas en caricias."
-  },
-  "prod-13": {
-    "cod": "dibujo-13",
-    "titulo": "Dibujos realistas de utensilios",
-    "url": "dibujo-13",
-    "categoria": "Dibujos",
-    "desc1": "Inteligencia es hacer artificiales los objetos, especialmente las herramientas para hacer herramientas.",
-    "desc2": "En mi infancia, un objeto parecía resumir los remedios para el hombre en apuros: la navaja suiza.",
-    "producto": "Dibujos naturales de manos",
-    "resumen": "Un ser humano rodeado de herramientas, es decir, de hachas, puntas de flecha, clavos, cuchillos, en una palabra, de cultura, ya no se encuentra en el mundo como en su propia casa, cosa que sí sucedía con el ser humano prehistórico que utilizaba las manos: aquél está alejado del mundo, y la cultura le protege y es su cárcel.",
-    "subtitulo1": "Es un pobre trabajador quien insulta a sus herramientas, el buen hombre continua con su trabajo, dado lo que tiene, y consigue la mejor respuesta que puede.",
-    "subtitulo2": "A mis libros, más que como reflejo o representación, los pienso como instrumentos o herramientas, para operar sobre la realidad, precisamente."
-  },
-  "prod-14": {
-    "cod": "dibujo-14",
-    "titulo": "Libros a granel",
-    "url": "dibujo-14",
-    "categoria": "Libros",
-    "desc1": "Gutenberg, tu imprenta ha sido violada por este malvado libro.",
-    "desc2": "Nadie puede leer dos mil libros. En los cuatro siglos que vivo no habré pasado de una media docena. Además no importa leer sino releer. La imprenta, ahora abolida, ha sido uno de los peores males del hombre, ya que tendió a multiplicar hasta el vértigo textos innecesarios",
-    "producto": "Libros encuadernados",
-    "resumen": "De los diversos instrumentos inventados por el hombre, el más asombroso es el libro; todos los demás son extensiones de su cuerpo. Sólo el libro es una extensión de la imaginación y la memoria",
-    "subtitulo1": "El escritor escribe su libro para explicarse a sí mismo lo que no se puede explicar",
-    "subtitulo2": "Un buen escritor expresa grandes cosas con pequeñas palabras; a la inversa del mal escritor, que dice cosas insignificantes con palabras grandiosas"
   }
 
 

@@ -1355,9 +1355,9 @@ body {
   background-size: 350%;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
-  /*.item-inside-1 {
-     background-image: url("../img/project-1h.jpg"); 
-  }*/
+  .item-inside-1 {
+    background-image: url("../img/project-1h.jpg");
+  }
 }
 @media (min-width: 40em) {
   .item-inside-1 {
@@ -2043,7 +2043,7 @@ body {
     -ms-flex-align: center;
             align-items: center;
     width: 100%;
-    height: 45%;/*PARA CAMBIAR EL ANCHO DE LA NAVBAR EN TAMAÑO MOVIL*/
+    height: 30%;/*PARA CAMBIAR EL ANCHO DE LA NAVBAR EN TAMAÑO MOVIL*/
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
     -webkit-flex-direction: column-reverse;

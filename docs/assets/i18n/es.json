@@ -12,9 +12,9 @@
         "spanish": "Español",
         "english": "Inglés",
         "catalan": "Catalán",
-        "home": "Inicio",
-        "galeria": "Galería",
-        "video": "Vídeo",
+        "competencias": "Competencias",
+        "reels": "Reels",
+        "opiniones": "Opiniones",
         "sobre": "Acerca de mí"
     },
     "about":{
@@ -35,6 +35,6 @@
         "frase2": "Quiero más!!",
         "frase3": "Las personas exitosas hacen mejores preguntas y como resultado obtienen mejores respuestas",
         "frase4": "Y si pudiera ...",
-        "frase5": "Imagina que ..."          
+        "frase5": "Imagina que ..."
     }
 }
