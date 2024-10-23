@@ -11,6 +11,10 @@
   position: relative;
 }
 
+.text-left{
+  text-align: left;
+}
+
 .timeline-item:before {
   content: '';
   position: absolute;

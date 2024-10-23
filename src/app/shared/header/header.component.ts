@@ -16,7 +16,8 @@ import { TranslateService, TranslateModule } from '@ngx-translate/core';
 
 export class HeaderComponent  {
 
-  @ViewChild('menuNavigation') menuNavigation!: ElementRef;
+  @ViewChild('mobileMenuCheckbox') mobileMenuCheckbox!: ElementRef;
+
 
   isSelectedSpanish : boolean = true;
   isSelectedCatalan : boolean = false;
@@ -78,8 +79,12 @@ export class HeaderComponent  {
     console.log('Idioma cambiado al Catalan');
     // window.location.reload();
   }
+
   closeMobileMenu(): void {
-    this.menuNavigation.nativeElement.checked = false;
+    // Cierra el menú móvil desmarcando el checkbox
+    if (this.mobileMenuCheckbox && this.mobileMenuCheckbox.nativeElement.checked) {
+      this.mobileMenuCheckbox.nativeElement.checked = false;
+    }
   }
 
 }
