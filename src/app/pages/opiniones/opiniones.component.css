@@ -5,12 +5,20 @@
 
 .review-card {
   background-color: #f8f9fa;
+  margin-top: 25px;
 }
 
+.contenedor{
+  padding: 30px;
+}
+
+.text-left{
+  text-align: left;
+}
 
 .profile-container {
-  width: 80%;
-  max-width: 800px;
+  /* width: 80%;
+  max-width: 800px; */
   margin: 0 auto;
   padding: 20px;
   background-color: #f9f9f9;
