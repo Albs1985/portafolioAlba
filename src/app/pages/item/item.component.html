@@ -1,9 +1,10 @@
 <section class="animated fadeIn padding" *ngIf="productoDesc"><!-- class="ae-container-fluid ae-container-fluid full" TODO: /portafolioAlba/-->
     <!-- <header *ngIf="idCarpetaImagen" [ngStyle]="{'background-image': 'url(/portafolioAlba/assets/productos/'+{idCarpetaImagen}+'/main.jpg)'}" class="rk-portfolio-cover item-inside-1"> -->
-    <header class="rk-portfolio-cover item-inside-1">
+    <!-- <header class="rk-portfolio-cover item-inside-1"> -->
+    <header [ngStyle]="{'background-image': 'url(/portafolioAlba/assets/img/fondoItem3.jpg)','-webkit-filter': 'blur(2px);'}" class="rk-portfolio-cover item-inside-1">
       <div class="item-inside__meta">
-        <h1 class="ae-u-bolder rk-portfolio-title ">{{productoDesc.producto}}</h1>
-        <p class="ae-theta rk-portfolio-category ">{{productoDesc.categoria}}</p>
+        <h1 class="ae-u-bolder rk-portfolio-title "><b>{{productoDesc.producto}}</b></h1>
+        <p class="ae-theta rk-portfolio-category "><b>{{productoDesc.categoria}}</b></p>
       </div>
     </header>
     <div class="ae-container-fluid">
@@ -102,22 +103,22 @@
         <div class="ae-grid__item--alt item-sm--auto item-lg-3 item-lg--offset-1 item-lg--end"><img src="assets/img/inner-4.jpg" alt="Urku Portfolio"></div>
       </div> -->
     </div>
-    <div class="ae-container-fluid au-pt-4 au-pb-4">
+    <!-- <div class="ae-container-fluid au-pt-4 au-pb-4">
       <div class="group-buttons">
         <a *ngIf="hasPrev" routerLink="/item/dibujo-{{prev}}" class="au-mt-2 arrow-button"> 🢀 {{ 'item.anterior' | translate }}
           <!-- <span class="arrow-cont">
             <svg>
               <use xlink:href="assets/img/symbols.svg#arrow"></use>
             </svg>
-          </span> -->
+          </span> --
         </a>
         <a *ngIf="hasNext" routerLink="/item/dibujo-{{next}}" class="au-mt-2 arrow-button">{{ 'item.siguiente' | translate }} 🢂
           <!-- <span class="arrow-cont">
             <svg>
               <use xlink:href="assets/img/symbols.svg#arrow"></use>
             </svg>
-          </span> -->
+          </span> --
         </a>
       </div>
-    </div>
+    </div> -->
   </section>
