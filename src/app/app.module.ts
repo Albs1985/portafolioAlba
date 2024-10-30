@@ -18,6 +18,7 @@ import { VideosComponent } from './pages/videos/videos.component';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { OpinionesComponent } from './pages/opiniones/opiniones.component';
+import { TimeAgoPipe } from './pipes/time-ago.pipe';
 
 @NgModule({
   declarations: [
@@ -30,12 +31,13 @@ import { OpinionesComponent } from './pages/opiniones/opiniones.component';
     SearchComponent,
     MosaicoComponent,
     VideosComponent,
-    OpinionesComponent    
+    OpinionesComponent,
+    TimeAgoPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,//PODER REALIZAR PETICIONES PUT, GET, DELETE... 
+    HttpClientModule,//PODER REALIZAR PETICIONES PUT, GET, DELETE...
     TranslateModule.forRoot(),
     TranslateModule.forRoot({
       loader: {

@@ -1,4 +1,4 @@
-<div class="contenedor mt-4">
+<!-- <div class="animated fadeIn contenedor mt-4">
   <h2>Reseñas y Opiniones</h2>
 
   <div class="profile-container">
@@ -9,10 +9,10 @@
 
     <div class="profile-details">
       <p>Alba Casares es una experta en supervisión y gestión de todo el proceso de producción en el ámbito gráfico.
-    </div> -->
+    </div> --
 
     <div class="text-left profile-reviews">
-      <!-- <h2>Menciones a Alba</h2> -->
+      <!-- <h2>Menciones a Alba</h2> --
       <p>Lee lo que dicen los clientes sobre el servicio de Alba Casares</p>
       <a href="https://www.google.com/search?sca_esv=dcbcef83952848e4&sxsrf=ADLYWILb2zXZrgY1wwxyPXyPaZJkJYruRw:1729699647252&uds=ADvngMjcH0KdF7qGWtwTBrP0nt7dscCv8jRqLn7DMNKTq-s8KOqhF621ycIxV2NTDNc_FnBY9aNCk7KvOhdabEYl5FnG5mriyViLyCzgT-uYzXlJHmE8EIfFNI-DQK04kh2zBIDrQplVxtZDzEBZIzD53LZFXnd78Q&si=ACC90nzcy7sviKw0NTZoUBUzhQehr3jouizIrVSf6avWI23m1YR-OF1PnBxPBAspKU7j0aGx4yAuxzIiOAYmcWG6lxCq_c6kfQOeQyV2Tp7gBD3igRTaiZI%3D&q=Copister%C3%ADa+Soriano+SL+Rese%C3%B1as&sa=X&ved=2ahUKEwjflKuo8aSJAxUcAtsEHVCKIvQQ3PALegQISBAF&biw=1512&bih=744&dpr=2"
           target="_blank" class="reviews-link">Ver reseñas en Google</a>
@@ -21,15 +21,47 @@
 
   <div *ngFor="let review of reviews" class="review-card mb-3 p-3 border rounded shadow-sm">
     <div class="d-flex justify-content-between align-items-center">
+        <div>
+            <strong>{{ review.user }}</strong>
+            <!-- <p class="text-muted">{{ review.date | date: 'longDate' }}</p> --
+            <p class="text-muted">{{ review.date | timeAgo }}</p>
+        </div>
+        <div class="rating">
+            <span *ngFor="let star of getStars(review.rating)" class="star">&#9733;</span>
+            <span *ngFor="let star of getEmptyStars(review.rating)" class="star">&#9734;</span>
+        </div>
+    </div>
+    <p [innerHTML]="highlightAlba(review.comment)"></p>
+  </div>
+</div> -->
+
+<div class="animated fadeIn contenedor mt-4">
+  <h2>Reseñas y Opiniones</h2>
+
+  <div class="profile-container">
+    <div class="text-left profile-reviews">
+      <p>Lee lo que dicen los clientes sobre el servicio de Alba Casares</p>
+      <a href="https://www.google.com/search?sca_esv=dcbcef83952848e4&sxsrf=ADLYWILb2zXZrgY1wwxyPXyPaZJkJYruRw:1729699647252&uds=ADvngMjcH0KdF7qGWtwTBrP0nt7dscCv8jRqLn7DMNKTq-s8KOqhF621ycIxV2NTDNc_FnBY9aNCk7KvOhdabEYl5FnG5mriyViLyCzgT-uYzXlJHmE8EIfFNI-DQK04kh2zBIDrQplVxtZDzEBZIzD53LZFXnd78Q&si=ACC90nzcy7sviKw0NTZoUBUzhQehr3jouizIrVSf6avWI23m1YR-OF1PnBxPBAspKU7j0aGx4yAuxzIiOAYmcWG6lxCq_c6kfQOeQyV2Tp7gBD3igRTaiZI%3D&q=Copister%C3%ADa+Soriano+SL+Rese%C3%B1as&sa=X&ved=2ahUKEwjflKuo8aSJAxUcAtsEHVCKIvQQ3PALegQISBAF&biw=1512&bih=744&dpr=2" target="_blank" class="reviews-link">Ver reseñas en Google</a>
+    </div>
+  </div>
+
+  <div *ngFor="let review of reviews" class="review-card mb-3 p-3 border rounded shadow-sm">
+    <div class="d-flex justify-content-between align-items-center">
       <div>
         <strong>{{ review.user }}</strong>
-        <p class="text-muted">{{ review.date | date: 'longDate' }}</p>
+        <p class="text-muted">{{ review.date | timeAgo }}</p>
       </div>
       <div class="rating">
         <span *ngFor="let star of getStars(review.rating)" class="star">&#9733;</span>
         <span *ngFor="let star of getEmptyStars(review.rating)" class="star">&#9734;</span>
       </div>
     </div>
-    <p>{{ review.comment }}</p>
+    <p [innerHTML]="highlightAlba(review.comment)"></p>
+  </div>
+
+  <!-- Mensaje de más reseñas -->
+  <div class="more-reviews">
+    <p class="text-muted">¿Quieres leer más reseñas?</p>
+    <a href="https://www.google.com/search?sca_esv=dcbcef83952848e4&sxsrf=ADLYWILb2zXZrgY1wwxyPXyPaZJkJYruRw:1729699647252&uds=ADvngMjcH0KdF7qGWtwTBrP0nt7dscCv8jRqLn7DMNKTq-s8KOqhF621ycIxV2NTDNc_FnBY9aNCk7KvOhdabEYl5FnG5mriyViLyCzgT-uYzXlJHmE8EIfFNI-DQK04kh2zBIDrQplVxtZDzEBZIzD53LZFXnd78Q&si=ACC90nzcy7sviKw0NTZoUBUzhQehr3jouizIrVSf6avWI23m1YR-OF1PnBxPBAspKU7j0aGx4yAuxzIiOAYmcWG6lxCq_c6kfQOeQyV2Tp7gBD3igRTaiZI%3D&q=Copister%C3%ADa+Soriano+SL+Rese%C3%B1as&sa=X&ved=2ahUKEwjflKuo8aSJAxUcAtsEHVCKIvQQ3PALegQISBAF&biw=1512&bih=744&dpr=2" target="_blank" class="reviews-link">Ver más reseñas</a>
   </div>
 </div>

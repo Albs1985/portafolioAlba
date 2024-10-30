@@ -1,6 +1,6 @@
-<section *ngIf="productoDesc"><!-- class="ae-container-fluid ae-container-fluid full" TODO: /portafolioAlba/-->  
+<section class="animated fadeIn padding" *ngIf="productoDesc"><!-- class="ae-container-fluid ae-container-fluid full" TODO: /portafolioAlba/-->
     <!-- <header *ngIf="idCarpetaImagen" [ngStyle]="{'background-image': 'url(/portafolioAlba/assets/productos/'+{idCarpetaImagen}+'/main.jpg)'}" class="rk-portfolio-cover item-inside-1"> -->
-    <header [ngStyle]="{'background-image': 'url(/portafolioAlba/assets/img/fondoItem3.jpg)','filter': 'blur(2px)','-webkit-filter': 'blur(2px);'}" class="rk-portfolio-cover item-inside-1">
+    <header class="rk-portfolio-cover item-inside-1">
       <div class="item-inside__meta">
         <h1 class="ae-u-bolder rk-portfolio-title ">{{productoDesc.producto}}</h1>
         <p class="ae-theta rk-portfolio-category ">{{productoDesc.categoria}}</p>
@@ -25,12 +25,12 @@
           <p class="ae-eta">{{productoDesc.desc1}} </p>
           <!-- <p class="ae-eta">It includes a A6 flyer, A5 folder, A4 horizontal paper and a business card mockup. You can easily put your own graphics and create a new layout according to your needs.</p> -->
         </div>
-        <div class="animated bounceIn ae-grid__item item-lg-6 item-lg--offset-1">
+        <div class="animated fadeIn ae-grid__item item-lg-6 item-lg--offset-1">
           <img *ngIf="idCarpetaImagen" src='assets/productos/{{idCarpetaImagen}}/main.jpg' alt="Imagen Principal">
         </div>
       </div>
       <div class="ae-grid ae-grid--collapse">
-        <div class="animated flip ae-grid__item item-lg-8">
+        <div class="animated fadeIn ae-grid__item item-lg-8">
           <img *ngIf="idCarpetaImagen" src="assets/productos/{{idCarpetaImagen}}/pic-1.jpg" alt="Imagen 1">
         </div>
         <div class="ae-grid__item item-lg-3 item-lg--offset-1 au-lg-ptp-1">
@@ -40,7 +40,7 @@
         </div>
       </div>
       <div class="ae-grid ae-grid--collapse">
-        <div class="animated rollIn ae-grid__item item-lg-6">
+        <div class="animated fadeIn ae-grid__item item-lg-6">
           <img *ngIf="idCarpetaImagen" src="assets/productos/{{idCarpetaImagen}}/pic-2.jpg" alt="Imagen 2"></div>
         <div class="ae-grid__item item-lg-5 item-lg--offset-1 au-lg-ptp-1">
           <h4 class="ae-u-bolder">{{ 'item.frase5' | translate }}</h4>
@@ -49,7 +49,7 @@
         </div>
       </div>
       <div class="ae-grid ae-grid--collapse">
-        <div class="animated lightSpeedInLeft ae-grid__item item-lg-6">
+        <div class="animated fadeIn ae-grid__item item-lg-6">
           <img *ngIf="idCarpetaImagen" src="assets/productos/{{idCarpetaImagen}}/pic-3.jpg" alt=""></div>
         <div class="ae-grid__item item-lg-5 item-lg--offset-1 au-lg-ptp-1">
           <h4 class="ae-u-bolder">{{ 'item.frase4' | translate }}</h4>
@@ -58,7 +58,7 @@
         </div>
       </div>
       <div class="ae-grid ae-grid--collapse">
-        <div class="animated bounceInUp ae-grid__item item-lg-6">
+        <div class="animated fadeIn ae-grid__item item-lg-6">
           <img *ngIf="idCarpetaImagen" src="assets/productos/{{idCarpetaImagen}}/pic-4.jpg" alt=""></div>
         <div class="ae-grid__item item-lg-5 item-lg--offset-1 au-lg-ptp-1">
           <h4 class="ae-u-bolder">{{ 'item.frase2' | translate }}</h4>
@@ -110,14 +110,14 @@
               <use xlink:href="assets/img/symbols.svg#arrow"></use>
             </svg>
           </span> -->
-        </a>        
+        </a>
         <a *ngIf="hasNext" routerLink="/item/dibujo-{{next}}" class="au-mt-2 arrow-button">{{ 'item.siguiente' | translate }} 🢂
           <!-- <span class="arrow-cont">
             <svg>
               <use xlink:href="assets/img/symbols.svg#arrow"></use>
             </svg>
           </span> -->
-        </a>        
+        </a>
       </div>
     </div>
   </section>

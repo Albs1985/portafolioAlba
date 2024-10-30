@@ -29,12 +29,12 @@
         "textoValores" : "El respeto entre personas y con el medio ambiente. El esfuerzo por la perfección, nos gusta mejorar constantemente. La proactividad, nos tomamos muy en serio nuestros retos, no queremos parar de innovar. El compañerismo, imprescindible para trabajar como un equipo sólido."
     },
     "item":{
-        "anterior": "Anterior Proyecto",
-        "siguiente": "Siguiente Proyecto",
-        "frase1" : "No puedo sino dibujar lo que veo",
-        "frase2": "Quiero más!!",
-        "frase3": "Las personas exitosas hacen mejores preguntas y como resultado obtienen mejores respuestas",
-        "frase4": "Y si pudiera ...",
-        "frase5": "Imagina que ..."
+        "anterior": "Anterior Competencia",
+        "siguiente": "Siguiente Competencia",
+        "frase1" : "",
+        "frase2": "",
+        "frase3": "",
+        "frase4": "",
+        "frase5": ""
     }
 }
