@@ -1,41 +1,40 @@
 {
-    "app": {
-        "titulo": "Portfolio Alba",
-        "galeriaImagenes": "Image Gallery",
-        "cargando": "Loading...",
-        "espere": "Wait please",
-        "videoNoSoportado": "Your browser does not support this type of video",
-        "youtubeVideos" : "Youtube Vídeos"
-    },
-    "main": {
-        "idioma": "Language",
-        "spanish": "Spanish",
-        "english": "English",
-        "catalan": "Catalan",
-        "home": "Home",
-        "galeria": "Gallery",
-        "video": "Multimedia",
-        "sobre": "About me"
-    },
-    "about":{
-        "titulo": "Portfolio Alba",
-        "frase": "The secret of true success is KNOWLEDGE coupled with ACTION.",
-        "nombre": "Alba Casares Català",
-        "subtitulo": "Artist, Designer",
-        "acerca": "«No one can make you feel inferior without your consent» — Eleanor Roosevelt",
-        "soriano" : "Books and bound editor in chief",
-        "mapubli" : "Digital printing in large format, small format, textile and 3D",
-        "valores": "Values",
-        "textoValores" : "Respect between people and the environment. Striving for perfection, we like to constantly improve. Proactivity, we take our challenges very seriously, we do not want to stop innovating. Fellowship, essential to work as a solid team."
-    },
-    "item":{
-        "anterior": "Previous Project",
-        "siguiente": "Next Project",
-        "frase1" : "I can't help but draw what I see.",
-        "frase2": "I Want more!!",
-        "frase3": "Successful people ask better questions and get better answers as a result.",
-        "frase4": "If I could ...",
-        "frase5": "Imagine that ..."        
-    }
-    
+  "app": {
+    "titulo": "Alba Casares",
+    "galeriaImagenes": "Image Gallery",
+    "cargando": "Charging...",
+    "espere": "Please wait",
+    "videoNoSoportado": "Your browser does not support this type of video",
+    "youtubeVideos": "Youtube videos"
+  },
+  "main": {
+    "idioma": "Language",
+    "spanish": "Spanish",
+    "english": "English",
+    "catalan": "Catalan",
+    "competencias": "Competencies",
+    "reels": "Reels",
+    "opiniones": "Opinions",
+    "sobre": "about me"
+  },
+  "about": {
+    "titulo": "Alba Portfolio",
+    "frase": "I am a professional in the field of Graphic Design and Production, with experience in various areas of the publishing and graphic arts sectors. Throughout my career, I have worked in production, project management, customer service, and process coordination, which has allowed me to develop a comprehensive and practical understanding of the industry. For several years, I was part of Copistería Soriano, where I held responsibilities related to graphic production management and the monitoring of publishing projects, learning to navigate dynamic environments with demanding work paces. Subsequently, I worked as a Product Manager at Luna Books, a period in which I was able to delve deeper into product development and the planning and coordination of publishing processes. My previous experience in technical and sales positions within the graphic arts has also helped me understand the sector from different perspectives and build a versatile and decisive profile. I am currently pursuing a Master's degree in Teacher Training and undertaking in-company training at the Barreira School of Art and Design, an experience that is bringing me closer to the field of education and allowing me to continue growing both professionally and personally. I consider myself an organized and dedicated person, eager to continue learning and contributing to the world of design, graphic production, and teaching.",
+    "nombre": "Alba Casares Catala",
+    "subtitulo": "Artist, Designer",
+    "acerca": "“No one can make you feel inferior without your consent” — Eleanor Roosevelt",
+    "soriano": "Head of Book and Bound Edition",
+    "mapubli": "Digital printing in large format, small format, textile and 3D",
+    "valores": "Values",
+    "textoValores": "Respect between people and the environment. "
+  },
+  "item": {
+    "anterior": "Previous Competition",
+    "siguiente": "Next Competition",
+    "frase1": "",
+    "frase2": "",
+    "frase3": "",
+    "frase4": "",
+    "frase5": ""
+  }
 }

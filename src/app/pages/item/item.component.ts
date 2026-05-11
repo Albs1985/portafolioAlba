@@ -54,8 +54,8 @@ export class ItemComponent implements OnInit{
       // this.productoService.getProducto(parametros['id']).subscribe((producto: any) => {
 
         // console.log(producto);
-        // console.log('parametros[id]');
-        // console.log(parametros['id']);
+        console.log('parametros[id]');
+        console.log(parametros['id']);
 
         this.idCarpetaImagen = parametros['id'];
         this.id = this.idCarpetaImagen.substring(this.idCarpetaImagen.indexOf('-')+1);
