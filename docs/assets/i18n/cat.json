@@ -1,43 +1,40 @@
 {
-    "app": {
-        "titulo": "Portafoli Alba",
-        "galeriaImagenes": "Galeria d'Imatges",
-        "cargando": "Carregant...",
-        "espere": "Esperi si us plau",
-        "videoNoSoportado": "El vostre navegador no suporta aquest tipus de vídeo",
-        "youtubeVideos" : "Vídeos de Youtube"
-    },
-
-    "main": {
-        "idioma": "Idioma",
-        "spanish": "Castellà",
-        "english": "Anglès",
-        "catalan": "Català",
-        "home": "Inici",
-        "galeria": "Galeria",
-        "video": "Vídeo",
-        "sobre": "Quant a mi"
-    },
-    "about":{
-        "titulo": "Portfoli Alba",
-        "frase": "El secret de l'èxit veritable és el CONEIXEMENT unit a l'ACCIÓ.",
-        "nombre": "Alba Casares Català",
-        "subtitulo": "Artista, Disenyadora",
-        "acerca": "«Ningú et pot fer sentir inferior sense el teu consentiment» — Eleanor Roosevelt",
-        "soriano" : "Cap d'edició de Llibres i enquadernats",
-        "mapubli" : "Impressió digital en gran format, petit format, tèxtil i 3D",
-        "valores": "Valors",
-        "textoValores" : "El respecte entre persones i amb el medi ambient. L'esforç per la perfecció ens agrada millorar constantment. La proactivitat, ens prenem molt de debò els nostres reptes, no volem parar d'innovar. La companyonia, imprescindible per treballar com un equip sòlid."
-    },
-    "item":{
-        "anterior": "Anterior Projecte",
-        "siguiente": "Següent Projecte",
-        "frase1" : "No puc sinó dibuixar el que veig",
-        "frase2": "Vuic més!!",
-        "frase3": "Les persones reeixides fan millors preguntes i com a resultat obtenen millors respostes",
-        "frase4": "Y si puguera ...",
-        "frase5": "Imagina que ..."
-
-    }
-    
+  "app": {
+    "titulo": "Alba Casares",
+    "galeriaImagenes": "Galeria d'Imatges",
+    "cargando": "Carregant...",
+    "espere": "Espereu si us plau",
+    "videoNoSoportado": "El vostre navegador no suporta aquest tipus de vídeo",
+    "youtubeVideos": "Vídeos de Youtube"
+  },
+  "main": {
+    "idioma": "Idioma",
+    "spanish": "Espanyol",
+    "english": "Anglès",
+    "catalan": "Català",
+    "competencias": "Competències",
+    "reels": "Reels",
+    "opiniones": "Opinions",
+    "sobre": "Quant a mi"
+  },
+  "about": {
+    "titulo": "Portafoli Alba",
+    "frase": "Sóc professional de l'àmbit del Disseny i la Producció Gràfica, amb experiència a diferents àrees del sector editorial i d'arts gràfiques. Al llarg de la meva trajectòria he treballat tant en producció com en gestió de projectes, atenció al client i coordinació de processos, cosa que m'ha permès desenvolupar una visió força completa i pràctica del sector. Durant diversos anys vaig formar part de Copistería Soriano, on vaig assumir responsabilitats relacionades amb la gestió de producció gràfica i el seguiment de projectes editorials, aprenent a desenvolupar-me en entorns dinàmics i amb ritmes de treball exigents. Posteriorment vaig treballar com a Product Manager a Luna Books, una etapa en què vaig poder aprofundir més en el desenvolupament de producte i en la planificació i coordinació de processos editorials. La meva experiència anterior en llocs tècnics i comercials dins les arts gràfiques també m'ha ajudat a entendre el sector des de diferents punts de vista i construir un perfil versàtil i resolutiu. Actualment estic cursant el Màster de Formació Pedagògica i fent formació en empresa a l'Escola d'Art i Superior de Disseny Barreira, una experiència que m'està acostant a l'àmbit educatiu i que em permet seguir creixent tant a nivell professional com personal. Em considero una persona organitzada, implicada i amb interès per continuar aprenent i aportant dins del món del disseny, la producció gràfica i l'ensenyament.",
+    "nombre": "Alba Casares Català",
+    "subtitulo": "Artista, Dissenyadora",
+    "acerca": "«Ningú et pot fer sentir inferior sense el teu consentiment» — Eleanor Roosevelt",
+    "soriano": "Cap d'edició de Llibres i enquadernats",
+    "mapubli": "Impressió digital en gran format, petit format, tèxtil i 3D",
+    "valores": "Valors",
+    "textoValores": "El respecte entre persones i amb el medi ambient. "
+  },
+  "item": {
+    "anterior": "Anterior Competència",
+    "siguiente": "Següent Competència",
+    "frase1": "",
+    "frase2": "",
+    "frase3": "",
+    "frase4": "",
+    "frase5": ""
+  }
 }
