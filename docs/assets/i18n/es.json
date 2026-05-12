@@ -1,40 +1,40 @@
 {
-    "app": {
-        "titulo": "Alba Casares",
-        "galeriaImagenes": "Galería de Imágenes",
-        "cargando": "Cargando...",
-        "espere": "Espere por favor",
-        "videoNoSoportado": "Tu navegador no soporta este tipo de video",
-        "youtubeVideos" : "Vídeos de Youtube"
-    },
-    "main": {
-        "idioma": "Idioma",
-        "spanish": "Español",
-        "english": "Inglés",
-        "catalan": "Catalán",
-        "competencias": "Competencias",
-        "reels": "Reels",
-        "opiniones": "Opiniones",
-        "sobre": "Acerca de mí"
-    },
-    "about":{
-        "titulo": "Portafolio Alba",
-        "frase": "Soy profesional del ámbito del Diseño y la Producción Gráfica, con experiencia en diferentes áreas del sector editorial y de artes gráficas. A lo largo de mi trayectoria he trabajado tanto en producción como en gestión de proyectos, atención al cliente y coordinación de procesos, lo que me ha permitido desarrollar una visión bastante completa y práctica del sector. Durante varios años formé parte de Copistería Soriano, donde asumí responsabilidades relacionadas con la gestión de producción gráfica y el seguimiento de proyectos editoriales, aprendiendo a desenvolverme en entornos dinámicos y con ritmos de trabajo exigentes. Posteriormente trabajé como Product Manager en Luna Books, una etapa en la que pude profundizar más en el desarrollo de producto y en la planificación y coordinación de procesos editoriales. Mi experiencia anterior en puestos técnicos y comerciales dentro de las artes gráficas también me ha ayudado a entender el sector desde distintos puntos de vista y a construir un perfil versátil y resolutivo. Actualmente estoy cursando el Máster de Formación Pedagógica y realizando formación en empresa en Escuela de Arte y Superior de Diseño Barreira, una experiencia que me está acercando al ámbito educativo y que me permite seguir creciendo tanto a nivel profesional como personal. Me considero una persona organizada, implicada y con interés por seguir aprendiendo y aportando dentro del mundo del diseño, la producción gráfica y la enseñanza.",
-        "nombre": "Alba Casares Català",
-        "subtitulo": "Artista, Diseñadora",
-        "acerca": "«Nadie puede hacerte sentir inferior sin tu consentimiento» — Eleanor Roosevelt",
-        "soriano" : "Jefa de edición de Libros y encuadernados",
-        "mapubli" : "Impresión digital en gran formato, pequeño formato, textil y 3D",
-        "valores": "Valores",
-        "textoValores" : "El respeto entre personas y con el medio ambiente. El esfuerzo por la perfección, nos gusta mejorar constantemente. La proactividad, nos tomamos muy en serio nuestros retos, no queremos parar de innovar. El compañerismo, imprescindible para trabajar como un equipo sólido."
-    },
-    "item":{
-        "anterior": "Anterior Competencia",
-        "siguiente": "Siguiente Competencia",
-        "frase1" : "",
-        "frase2": "",
-        "frase3": "",
-        "frase4": "",
-        "frase5": ""
-    }
+  "app": {
+      "titulo": "Alba Casares",
+      "galeriaImagenes": "Galería de Imágenes",
+      "cargando": "Cargando...",
+      "espere": "Espere por favor",
+      "videoNoSoportado": "Tu navegador no soporta este tipo de video",
+      "youtubeVideos" : "Vídeos de Youtube"
+  },
+  "main": {
+      "idioma": "Idioma",
+      "spanish": "Español",
+      "english": "Inglés",
+      "catalan": "Catalán",
+      "competencias": "Competencias",
+      "reels": "Reels",
+      "opiniones": "Opiniones",
+      "sobre": "Acerca de mí"
+  },
+  "about":{
+      "titulo": "Portafolio Alba",
+      "frase": "Soy profesional del ámbito del Diseño y la Producción Gráfica, con experiencia en diferentes áreas del sector editorial y de artes gráficas. A lo largo de mi trayectoria he trabajado tanto en producción como en gestión de proyectos, atención al cliente y coordinación de procesos, lo que me ha permitido desarrollar una visión bastante completa y práctica del sector. Durante varios años formé parte de Copistería Soriano, donde asumí responsabilidades relacionadas con la gestión de producción gráfica y el seguimiento de proyectos editoriales, aprendiendo a desenvolverme en entornos dinámicos y con ritmos de trabajo exigentes. Posteriormente trabajé como Product Manager en Luna Books, una etapa en la que pude profundizar más en el desarrollo de producto y en la planificación y coordinación de procesos editoriales. Mi experiencia anterior en puestos técnicos y comerciales dentro de las artes gráficas también me ha ayudado a entender el sector desde distintos puntos de vista y a construir un perfil versátil y resolutivo. Actualmente estoy cursando el Máster de Formación Pedagógica y realizando formación en empresa en la Escuela de Arte y Diseño Barreira, una experiencia que me está acercando al ámbito educativo y que me permite seguir creciendo tanto a nivel profesional como personal. Me considero una persona organizada, implicada y con interés por seguir aprendiendo y aportando dentro del mundo del diseño, la producción gráfica y la enseñanza.",
+      "nombre": "Alba Casares Català",
+      "subtitulo": "Artista, Diseñadora",
+      "acerca": "«Nadie puede hacerte sentir inferior sin tu consentimiento» — Eleanor Roosevelt",
+      "soriano" : "Jefa de edición de Libros y encuadernados",
+      "mapubli" : "Impresión digital en gran formato, pequeño formato, textil y 3D",
+      "valores": "Valores",
+      "textoValores" : "El respeto entre personas y con el medio ambiente. El esfuerzo por la perfección, nos gusta mejorar constantemente. La proactividad, nos tomamos muy en serio nuestros retos, no queremos parar de innovar. El compañerismo, imprescindible para trabajar como un equipo sólido."
+  },
+  "item":{
+      "anterior": "Anterior Competencia",
+      "siguiente": "Siguiente Competencia",
+      "frase1" : "",
+      "frase2": "",
+      "frase3": "",
+      "frase4": "",
+      "frase5": ""
+  }
 }
